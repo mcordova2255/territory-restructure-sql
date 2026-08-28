@@ -191,8 +191,11 @@ for o in take(DEFECT_PLAN["ORPHAN"]):
             a["valid_to"] = "2026-02-01"   # closed with no successor row
 
 for o in take(DEFECT_PLAN["STALE_NAME"]):
-    o["legal_name"] = o["org_name"].replace(
-        o["org_name"].split(" ")[1], random.choice(DIVISIONS))
+    current = o["org_name"].split(" ")[1]
+    # exclude the current division, otherwise the redraw can match and the
+    # replace silently does nothing, leaving a seeded defect that is not one
+    alt = random.choice([d for d in DIVISIONS if d != current])
+    o["legal_name"] = o["org_name"].replace(current, alt, 1)
 
 for o in take(DEFECT_PLAN["COUNTRY_MISMATCH"]):
     tid = next(a["territory_id"] for a in assignments if a["org_id"] == o["org_id"])
@@ -238,7 +241,7 @@ action_seq = 1
 start = date(2026, 2, 2)
 
 for i in range(N_CASES):
-    level = "ORGANIZATION" if i < 106 else "TERRITORY"
+    level = "ORGANIZATION" if i < 72 else "TERRITORY"
     status = STATUS_PLAN[i]
     raised = start + timedelta(days=random.randint(0, 180))
     approved = raised + timedelta(days=random.randint(2, 25)) \
@@ -273,49 +276,57 @@ for i in range(N_CASES):
 # ----------------------------------------------------------------------
 OPENING_TOTAL = 18450.0
 MERGED_OUT_TOTAL = -92.5
+REFORECAST_TOTAL = 2140.3
 
-weights = [random.random() ** 1.7 + 0.02 for _ in named_active]
-scale = OPENING_TOTAL / sum(weights)
+# The ledger covers every named territory that opened the cycle, not just the
+# survivors. The retired ones carried value at opening and closed at zero;
+# that movement is what the case column records.
+named_all     = [t for t in territories if t["segment"] == "NAMED"]
+named_retired = [t for t in named_all if t["status"] == "RETIRED"]
+named_open    = [t for t in named_all if t["status"] == "ACTIVE"]
+
 tam = []
-for t, w in zip(named_active, weights):
+
+# retired territories: their combined opening equals the case-driven movement
+rw = [random.random() + 0.15 for _ in named_retired]
+rscale = abs(MERGED_OUT_TOTAL) / sum(rw)
+running = 0.0
+for i, (t, w) in enumerate(zip(named_retired, rw)):
+    val = (round(abs(MERGED_OUT_TOTAL) - running, 1) if i == len(named_retired) - 1
+           else round(w * rscale, 1))
+    running = round(running + val, 1)
+    tam.append({"territory_id": t["territory_id"], "tam_before_k": val,
+                "tam_after_k": 0.0, "delta_from_cases_k": round(-val, 1),
+                "delta_reforecast_k": 0.0, "action_summary": "RETIRED-MERGED-TO-VOLUME"})
+
+# surviving territories carry the rest of the opening book
+weights = [random.random() ** 1.7 + 0.02 for _ in named_open]
+scale = (OPENING_TOTAL - abs(MERGED_OUT_TOTAL)) / sum(weights)
+for t, w in zip(named_open, weights):
     tam.append({"territory_id": t["territory_id"], "tam_before_k": round(w * scale, 1),
                 "tam_after_k": 0.0, "delta_from_cases_k": 0.0,
                 "delta_reforecast_k": 0.0, "action_summary": "KEEP"})
 
-# per-row rounding leaves a few hundred pounds of drift against the control
-# total; absorb it into the largest territory so the opening balance ties exactly
+# absorb per-row rounding so the opening balance ties exactly
 drift = round(OPENING_TOTAL - sum(r["tam_before_k"] for r in tam), 1)
-max(tam, key=lambda r: r["tam_before_k"])["tam_before_k"] += drift
+max(tam, key=lambda r: r["tam_before_k"])["tam_before_k"] = round(
+    max(tam, key=lambda r: r["tam_before_k"])["tam_before_k"] + drift, 1)
 
-# distribute the merged-out movement across four territories
-merge_targets = random.sample(tam, 4)
-remaining = MERGED_OUT_TOTAL
-for idx, row in enumerate(merge_targets):
-    share = round(remaining if idx == len(merge_targets) - 1
-                  else remaining * random.uniform(0.15, 0.45), 1)
-    row["delta_from_cases_k"] = share
-    row["action_summary"] = "MERGE-VOLUME"
-    remaining = round(remaining - share, 1)
-
-# reforecast movement: the refresh moves value in both directions
-for row in tam:
-    if row["action_summary"] == "KEEP" and random.random() < 0.55:
-        row["delta_reforecast_k"] = round(
-            row["tam_before_k"] * random.uniform(-0.35, 0.9), 1)
+# reforecast movement applies only to territories still open
+survivors = [r for r in tam if r["action_summary"] == "KEEP"]
+for row in survivors:
+    if random.random() < 0.55:
+        row["delta_reforecast_k"] = round(row["tam_before_k"] * random.uniform(-0.35, 0.9), 1)
         if abs(row["delta_reforecast_k"]) > 0.05:
             row["action_summary"] = "REFORECAST"
-
-# scale the reforecast movement so the cycle nets to the control figure,
-# absorbing the rounding remainder in the largest contributing row
-REFORECAST_TOTAL = 2140.3
-current = sum(r["delta_reforecast_k"] for r in tam)
+current = sum(r["delta_reforecast_k"] for r in survivors)
 if abs(current) > 0.01:
     factor = REFORECAST_TOTAL / current
-    for row in tam:
+    for row in survivors:
         row["delta_reforecast_k"] = round(row["delta_reforecast_k"] * factor, 1)
-drift = round(REFORECAST_TOTAL - sum(r["delta_reforecast_k"] for r in tam), 1)
-if abs(drift) > 0.001:
-    max(tam, key=lambda r: abs(r["delta_reforecast_k"]))["delta_reforecast_k"] += drift
+rdrift = round(REFORECAST_TOTAL - sum(r["delta_reforecast_k"] for r in survivors), 1)
+if abs(rdrift) > 0.001:
+    max(survivors, key=lambda r: abs(r["delta_reforecast_k"]))["delta_reforecast_k"] += rdrift
 
 for row in tam:
     row["tam_after_k"] = round(
