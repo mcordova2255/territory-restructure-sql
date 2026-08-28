@@ -101,10 +101,10 @@ Case funnel
   Withdrawn / No Change     6     4.3%
 
 Reconciliation
-  Opening                   31,862.9K
-  Movement from cases         -141.7K
-  Movement from reforecast   3,684.1K
-  Closing                   35,405.3K
+  Opening                   18,450.0K
+  Movement from cases          -92.5K
+  Movement from reforecast   2,140.3K
+  Closing                   20,497.8K
   Variance                       0.0K   BALANCED
 
 Integrity checks             8 of 8 PASS
