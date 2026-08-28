@@ -10,7 +10,7 @@
 -- =====================================================================
 
 DROP TABLE IF EXISTS case_actions;
-DROP TABLE IF EXISTS mdm_cases;
+DROP TABLE IF EXISTS master_data_cases;
 DROP TABLE IF EXISTS verification_log;
 DROP TABLE IF EXISTS tam_movement;
 DROP TABLE IF EXISTS org_assignment;
@@ -33,8 +33,8 @@ CREATE TABLE ref_case_status (
 -- absorbs merged-out accounts.
 -- ---------------------------------------------------------------------
 CREATE TABLE sales_territories (
-    st_id           INTEGER PRIMARY KEY,
-    st_name         TEXT    NOT NULL,
+    territory_id           INTEGER PRIMARY KEY,
+    territory_name         TEXT    NOT NULL,
     country_code    TEXT    NOT NULL CHECK (country_code IN ('GB','IE')),
     segment         TEXT    NOT NULL CHECK (segment IN ('NAMED','VOLUME')),
     status          TEXT    NOT NULL CHECK (status IN ('ACTIVE','RETIRED')),
@@ -68,7 +68,7 @@ CREATE TABLE organizations (
 CREATE TABLE org_assignment (
     assignment_id   INTEGER PRIMARY KEY,
     org_id          INTEGER NOT NULL REFERENCES organizations(org_id),
-    st_id           INTEGER NOT NULL REFERENCES sales_territories(st_id),
+    territory_id           INTEGER NOT NULL REFERENCES sales_territories(territory_id),
     valid_from      TEXT    NOT NULL,
     valid_to        TEXT
 );
@@ -78,9 +78,9 @@ CREATE TABLE org_assignment (
 -- live in a child table. Cases are the unit of approval; actions are the
 -- unit of change.
 -- ---------------------------------------------------------------------
-CREATE TABLE mdm_cases (
+CREATE TABLE master_data_cases (
     case_ref        TEXT PRIMARY KEY,
-    case_level      TEXT NOT NULL CHECK (case_level IN ('ORG','ST')),
+    case_level      TEXT NOT NULL CHECK (case_level IN ('ORGANIZATION','TERRITORY')),
     status          TEXT NOT NULL REFERENCES ref_case_status(status),
     raised_date     TEXT NOT NULL,
     approved_date   TEXT,
@@ -92,16 +92,16 @@ CREATE TABLE mdm_cases (
 
 CREATE TABLE case_actions (
     action_id       INTEGER PRIMARY KEY,
-    case_ref        TEXT NOT NULL REFERENCES mdm_cases(case_ref),
+    case_ref        TEXT NOT NULL REFERENCES master_data_cases(case_ref),
     action_type     TEXT NOT NULL CHECK (action_type IN
-                        ('MOVE_ORG','MERGE_ORG','DEACTIVATE_ORG','CREATE_ORG','RENAME_ORG',
-                         'RENAME_ST','MERGE_ST','CREATE_ST','RECLASSIFY_ST')),
+                        ('MOVE_ORGANIZATION','MERGE_ORGANIZATION','DEACTIVATE_ORGANIZATION','CREATE_ORGANIZATION','RENAME_ORGANIZATION',
+                         'RENAME_TERRITORY','MERGE_TERRITORY','CREATE_TERRITORY','RECLASSIFY_TERRITORY')),
     org_id          INTEGER REFERENCES organizations(org_id),
-    st_id           INTEGER REFERENCES sales_territories(st_id),
+    territory_id           INTEGER REFERENCES sales_territories(territory_id),
     tam_delta_k     REAL NOT NULL DEFAULT 0,
     -- an action must point at whatever level its type implies
-    CHECK ( (action_type LIKE '%_ORG' AND org_id IS NOT NULL)
-         OR (action_type LIKE '%_ST'  AND st_id  IS NOT NULL) )
+    CHECK ( (action_type LIKE '%_ORGANIZATION' AND org_id IS NOT NULL)
+         OR (action_type LIKE '%_TERRITORY'  AND territory_id  IS NOT NULL) )
 );
 
 -- ---------------------------------------------------------------------
@@ -111,7 +111,7 @@ CREATE TABLE case_actions (
 -- kept apart on purpose, so my work can be isolated from the reforecast.
 -- ---------------------------------------------------------------------
 CREATE TABLE tam_movement (
-    st_id                INTEGER PRIMARY KEY REFERENCES sales_territories(st_id),
+    territory_id                INTEGER PRIMARY KEY REFERENCES sales_territories(territory_id),
     tam_before_k         REAL NOT NULL,
     tam_after_k          REAL NOT NULL,
     delta_from_cases_k   REAL NOT NULL DEFAULT 0,
@@ -136,7 +136,7 @@ CREATE TABLE verification_log (
 CREATE INDEX idx_org_parent      ON organizations(parent_org_id);
 CREATE INDEX idx_org_registry    ON organizations(registry_no);
 CREATE INDEX idx_assign_org      ON org_assignment(org_id);
-CREATE INDEX idx_assign_st       ON org_assignment(st_id);
+CREATE INDEX idx_assign_territory       ON org_assignment(territory_id);
 CREATE INDEX idx_action_case     ON case_actions(case_ref);
 CREATE INDEX idx_verif_org       ON verification_log(org_id);
 
