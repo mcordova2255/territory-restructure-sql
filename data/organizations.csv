@@ -1,343 +1,416 @@
 org_id,org_name,legal_name,registry_no,reg_country,parent_org_id,ultimate_parent_hint,employees,entity_status,is_duplicate_of,created_cycle
-700100076,Tullamore Logistics Limited,Tullamore Logistics Limited,370353,IE,,Tullamore Logistics Limited,5481,ACTIVE,,2H25
-700100167,Cranbourne Advisory DAC,Cranbourne Advisory DAC,536440,IE,,Cranbourne Advisory DAC,858,ACTIVE,,2H25
-700100179,Lambourne Healthcare Group Limited,Lambourne Healthcare Group Limited,2418058,GB,,Lambourne Healthcare Group Limited,8997,ACTIVE,,2H25
-700100201,Deepwell Financial Group Limited,Deepwell Financial Group Limited,6298429,GB,,Deepwell Financial Group Limited,542,ACTIVE,,2H25
-700100278,Tullamore Insurance Ireland Limited,Tullamore Insurance Ireland Limited,225026,IE,,Tullamore Insurance Ireland Limited,6568,ACTIVE,,2H25
-700100363,Garrowby Insurance Group PLC,Garrowby Insurance Group PLC,203364,IE,,Garrowby Insurance Group PLC,685,ACTIVE,,2H25
-700100380,Lambourne Energy Group Limited,Lambourne Energy Group Limited,3175457,GB,,Lambourne Energy Group Limited,2556,ACTIVE,,2H25
-700100402,Hollybrook Technology (UK) Limited,Hollybrook Technology (UK) Limited,2532700,GB,,Hollybrook Technology (UK) Limited,1321,ACTIVE,,2H25
-700100463,Tullamore Retail Group PLC,Tullamore Retail Group PLC,763909,IE,,Tullamore Retail Group PLC,5572,ACTIVE,,2H25
-700100487,Harrowfield Industrial Limited,Harrowfield Industrial Limited,643651,IE,,Harrowfield Industrial Limited,3628,ACTIVE,,2H25
-700100581,Cranbourne Insurance Holdings Limited,Cranbourne Insurance Holdings Limited,4165751,GB,,Cranbourne Insurance Holdings Limited,2129,ACTIVE,,2H25
-700100607,Yarrowdale Services Limited,Yarrowdale Services Limited,6136993,GB,,Yarrowdale Services Limited,5823,ACTIVE,,2H25
-700100644,Blackwater Partners Limited,Blackwater Partners Limited,3550955,GB,,Blackwater Partners Limited,3140,ACTIVE,,2H25
-700100701,Kilbrannan Capital Unlimited Company,Kilbrannan Capital Unlimited Company,710425,IE,,Kilbrannan Capital Unlimited Company,7364,ACTIVE,,2H25
-700100719,Orrell Logistics PLC,Orrell Logistics PLC,1104066,GB,,Orrell Logistics PLC,2701,ACTIVE,,2H25
-700100755,Lambourne Energy Holdings Limited,Lambourne Energy Holdings Limited,9288132,GB,,Lambourne Energy Holdings Limited,2371,ACTIVE,,2H25
-700100845,Ballyvaughan Financial PLC,Ballyvaughan Financial PLC,8362434,GB,,Ballyvaughan Financial PLC,4087,ACTIVE,,2H25
-700100909,Carrowmore Healthcare DAC,Carrowmore Healthcare DAC,764996,IE,,Carrowmore Healthcare DAC,3119,ACTIVE,,2H25
-700100955,Deepwell Advisory Ireland Limited,Deepwell Advisory Ireland Limited,526858,IE,,Deepwell Advisory Ireland Limited,1239,ACTIVE,,2H25
-700100968,Ardmore Capital Group Limited,Ardmore Capital Group Limited,1840586,GB,,Ardmore Capital Group Limited,8305,ACTIVE,,2H25
-700101028,Inisfree Partners Group Limited,Inisfree Partners Group Limited,8851308,GB,,Inisfree Partners Group Limited,4423,ACTIVE,,2H25
-700101074,Cranbourne Partners (UK) Limited,Cranbourne Partners (UK) Limited,7620098,GB,,Cranbourne Partners (UK) Limited,7065,ACTIVE,,2H25
-700101138,Fairholt Partners Unlimited Company,Fairholt Partners Unlimited Company,575641,IE,,Fairholt Partners Unlimited Company,2337,ACTIVE,,2H25
-700101224,Stonebridge Financial Limited,Stonebridge Financial Limited,588654,IE,,Stonebridge Financial Limited,4991,ACTIVE,,2H25
-700101290,Tullamore Industrial PLC,Tullamore Industrial PLC,8247967,GB,,Tullamore Industrial PLC,3905,ACTIVE,,2H25
-700101364,Cranbourne Financial PLC,Cranbourne Financial PLC,8792260,GB,,Cranbourne Financial PLC,1762,ACTIVE,,2H25
-700101378,Carrowmore Energy DAC,Carrowmore Energy DAC,258812,IE,,Carrowmore Energy DAC,6669,ACTIVE,,2H25
-700101394,Lambourne Industrial Group Limited,Lambourne Industrial Group Limited,2069233,GB,,Lambourne Industrial Group Limited,5873,ACTIVE,,2H25
-700101407,Northgate Logistics Limited,Northgate Logistics Limited,3894062,GB,,Northgate Logistics Limited,1287,ACTIVE,,2H25
-700101480,Fairholt Energy Limited,Fairholt Energy Limited,163415,IE,,Fairholt Energy Limited,4885,ACTIVE,,2H25
-700101508,Orrell Insurance Group PLC,Orrell Insurance Group PLC,522084,IE,,Orrell Insurance Group PLC,7505,ACTIVE,,2H25
-700101520,Ardmore Insurance Holdings Limited,Ardmore Insurance Holdings Limited,1031754,GB,,Ardmore Insurance Holdings Limited,3415,ACTIVE,,2H25
-700101562,Drumcondra Partners (UK) Limited,Drumcondra Partners (UK) Limited,2067863,GB,,Drumcondra Partners (UK) Limited,4830,ACTIVE,,2H25
-700101657,Blackwater Financial (UK) Limited,Blackwater Financial (UK) Limited,4486978,GB,,Blackwater Financial (UK) Limited,3754,ACTIVE,,2H25
-700101690,Vantry Logistics Unlimited Company,Vantry Logistics Unlimited Company,218894,IE,,Vantry Logistics Unlimited Company,4778,ACTIVE,,2H25
-700101714,Fernbank Retail Limited,Fernbank Retail Limited,5448399,GB,,Fernbank Retail Limited,6554,ACTIVE,,2H25
-700101732,Fernbank Healthcare Group Limited,Fernbank Healthcare Group Limited,4980515,GB,,Fernbank Healthcare Group Limited,7111,ACTIVE,,2H25
-700101808,Lambourne Financial Holdings Limited,Lambourne Financial Holdings Limited,7888387,GB,,Lambourne Financial Holdings Limited,4968,ACTIVE,,2H25
-700101863,Ardmore Industrial Limited,Ardmore Industrial Limited,409356,IE,,Ardmore Industrial Limited,8112,ACTIVE,,2H25
-700101913,Ardmore Retail Group PLC,Ardmore Retail Group PLC,235934,IE,,Ardmore Retail Group PLC,2675,ACTIVE,,2H25
-700101947,Fairholt Capital Holdings Limited,Fairholt Capital Holdings Limited,8030364,GB,,Fairholt Capital Holdings Limited,1647,ACTIVE,,2H25
-700102032,Glenmara Capital Group Limited,Glenmara Capital Group Limited,2631390,GB,,Glenmara Capital Group Limited,2687,ACTIVE,,2H25
-700102083,Vantry Services Group Limited,Vantry Services Group Limited,8038327,GB,,Vantry Services Group Limited,8144,ACTIVE,,2H25
-700102121,Fernbank Retail DAC,Fernbank Retail DAC,758074,IE,,Fernbank Retail DAC,3951,ACTIVE,,2H25
-700102179,Kilbrannan Logistics Limited,Kilbrannan Logistics Limited,708307,IE,,Kilbrannan Logistics Limited,479,ACTIVE,,2H25
-700102244,Vantry Industrial Limited,Vantry Industrial Limited,1633903,GB,,Vantry Industrial Limited,4792,ACTIVE,,2H25
-700102279,Inisfree Financial PLC,Inisfree Financial PLC,1622608,GB,,Inisfree Financial PLC,6283,ACTIVE,,2H25
-700102307,Pentland Energy Group PLC,Pentland Energy Group PLC,175479,IE,,Pentland Energy Group PLC,5942,ACTIVE,,2H25
-700102397,Carrowmore Financial Unlimited Company,Carrowmore Financial Unlimited Company,685535,IE,,Carrowmore Financial Unlimited Company,2783,ACTIVE,,2H25
-700102467,Stonebridge Advisory Holdings Limited,Stonebridge Advisory Holdings Limited,5768714,GB,,Stonebridge Advisory Holdings Limited,6839,ACTIVE,,2H25
-700102481,Orrell Services PLC,Orrell Services PLC,2090440,GB,,Orrell Services PLC,4457,ACTIVE,,2H25
-700102555,Ardmore Energy PLC,Ardmore Energy PLC,5049942,GB,,Ardmore Energy PLC,2962,ACTIVE,,2H25
-700102643,Eastvale Advisory Unlimited Company,Eastvale Advisory Unlimited Company,709101,IE,,Eastvale Advisory Unlimited Company,916,ACTIVE,,2H25
-700102738,Garrowby Technology Holdings Limited,Garrowby Technology Holdings Limited,5112631,GB,,Garrowby Technology Holdings Limited,2967,ACTIVE,,2H25
-700102766,Ardmore Technology Holdings Limited,Ardmore Technology Holdings Limited,3180024,GB,,Ardmore Technology Holdings Limited,1197,ACTIVE,,2H25
-700102789,Westmeath Industrial DAC,Westmeath Industrial DAC,739111,IE,,Westmeath Industrial DAC,5223,ACTIVE,,2H25
-700102867,Carrowmore Healthcare Unlimited Company,Carrowmore Healthcare Unlimited Company,620519,IE,,Carrowmore Healthcare Unlimited Company,4850,ACTIVE,,2H25
-700102905,Ballyvaughan Energy PLC,Ballyvaughan Energy PLC,6396607,GB,,Ballyvaughan Energy PLC,8960,ACTIVE,,2H25
-700102934,Cranbourne Services PLC,Cranbourne Services PLC,7100177,GB,,Cranbourne Services PLC,4202,ACTIVE,,2H25
-700102986,Yarrowdale Logistics Ireland Limited,Yarrowdale Logistics Ireland Limited,205687,IE,700100487,,2251,ACTIVE,,2H25
-700103061,Fernbank Capital Group Limited,Fernbank Capital Group Limited,6654100,GB,700102032,,1167,ACTIVE,,2H25
-700103093,Deepwell Financial Holdings Limited,Deepwell Financial Holdings Limited,2490716,GB,700100402,,464,ACTIVE,,2H25
-700103105,Glenmara Capital (UK) Limited,Glenmara Capital (UK) Limited,2483200,GB,700101028,,1150,ACTIVE,,2H25
-700103185,Drumcondra Healthcare PLC,Drumcondra Healthcare PLC,7697970,GB,700101028,,1803,ACTIVE,,2H25
-700103216,Westmeath Partners Holdings Limited,Westmeath Partners Holdings Limited,2512732,GB,700102905,,32,ACTIVE,,2H25
-700103286,Eastvale Healthcare Group Limited,Eastvale Healthcare Group Limited,4632604,GB,700101947,,2474,ACTIVE,,2H25
-700103363,Ulverston Healthcare (UK) Limited,Ulverston Healthcare (UK) Limited,7740404,GB,700100402,,825,ACTIVE,,2H25
-700103374,Fernbank Services DAC,Fernbank Services DAC,469653,IE,700101480,,1788,ACTIVE,,2H25
-700103405,Kilbrannan Industrial DAC,Kilbrannan Industrial DAC,595424,IE,700102179,,156,ACTIVE,,2H25
-700103473,Harrowfield Partners Limited,Harrowfield Partners Limited,3854426,GB,700100179,,865,ACTIVE,,2H25
-700103535,Westmeath Financial Group Limited,Westmeath Financial Group Limited,7598697,GB,700101394,,664,ACTIVE,,2H25
-700103550,Vantry Insurance Holdings Limited,Vantry Insurance Holdings Limited,5246634,GB,700101028,,603,LIQUIDATION,,2H25
-700103582,Garrowby Advisory (UK) Limited,Garrowby Advisory (UK) Limited,7798739,GB,700101364,,1072,ACTIVE,,2H25
-700103618,Westmeath Industrial Ireland Limited,Westmeath Industrial Ireland Limited,405932,IE,700100909,,938,ACTIVE,,2H25
-700103660,Ulverston Industrial (UK) Limited,Ulverston Industrial (UK) Limited,2474962,GB,700101364,,136,ACTIVE,,2H25
-700103677,Glenmara Insurance Holdings Limited,Glenmara Insurance Holdings Limited,1350568,GB,700101808,,1449,ACTIVE,,2H25
-700103774,Glenmara Logistics Limited,Glenmara Logistics Limited,7646697,GB,700101074,,1848,ACTIVE,,2H25
-700103788,Inisfree Retail Ireland Limited,Inisfree Retail Ireland Limited,235717,IE,700102555,,749,ACTIVE,,2H25
-700103866,Drumcondra Healthcare (UK) Limited,Drumcondra Healthcare (UK) Limited,7080098,GB,700102032,,67,ACTIVE,,2H25
-700103929,Fernbank Energy PLC,Fernbank Energy PLC,3569139,GB,700102738,,727,ACTIVE,,2H25
-700104005,Blackwater Advisory Ireland Limited,Blackwater Advisory Ireland Limited,133913,IE,700101863,,2430,DISSOLVED,,2H25
-700104057,Blackwater Logistics Group Limited,Blackwater Logistics Group Limited,9197757,GB,700100380,,97,ACTIVE,,2H25
-700104126,Tullamore Technology Unlimited Company,Tullamore Technology Unlimited Company,502651,IE,700101913,,66,ACTIVE,,2H25
-700104168,Cranbourne Advisory PLC,Cranbourne Advisory PLC,4386319,GB,700101074,,591,ACTIVE,,2H25
-700104224,Yarrowdale Insurance Unlimited Company,Yarrowdale Insurance Unlimited Company,140565,IE,700101378,,1149,ACTIVE,,2H25
-700104290,Fairholt Logistics DAC,Fairholt Logistics DAC,773194,IE,700100167,,1650,ACTIVE,,2H25
-700104345,Glenmara Retail PLC,Glenmara Retail PLC,4019464,GB,700102766,,553,ACTIVE,,2H25
-700104422,Yarrowdale Services PLC,Yarrowdale Services PLC,2407981,GB,700102766,,1550,ACTIVE,,2H25
-700104437,Quarryhill Advisory PLC,Quarryhill Advisory PLC,2584327,IE,700100719,,869,ACTIVE,,2H25
-700104490,Harrowfield Retail Ireland Limited,Harrowfield Retail Ireland Limited,251277,IE,700102307,,47,ACTIVE,,2H25
-700104581,Glenmara Services Ireland Limited,Glenmara Services Ireland Limited,704019,GB,700100487,,834,ACTIVE,,2H25
-700104597,Eastvale Financial Group Limited,Eastvale Financial Group Limited,8928423,GB,700102905,,1393,DISSOLVED,,2H25
-700104631,Ulverston Healthcare Limited,Ulverston Healthcare Limited,4797980,GB,700101074,,2245,LIQUIDATION,,2H25
-700104646,Eastvale Logistics (UK) Limited,Eastvale Logistics (UK) Limited,9124475,GB,700101732,,1278,ACTIVE,,2H25
-700104706,Blackwater Retail Group Limited,Blackwater Retail Group Limited,1536250,GB,700101714,,67,ACTIVE,,2H25
-700104791,Drumcondra Partners Unlimited Company,Drumcondra Partners Unlimited Company,614788,IE,700100463,,411,ACTIVE,,2H25
-700104823,Hollybrook Energy Group PLC,Hollybrook Energy Group PLC,209633,IE,700102397,,1697,ACTIVE,,2H25
-700104851,Stonebridge Energy Unlimited Company,Stonebridge Technology Unlimited Company,351569,IE,700101224,,1372,ACTIVE,,2H25
-700104892,Redbourne Healthcare Limited,Redbourne Healthcare Limited,7625696,GB,700100719,,2201,ACTIVE,,2H25
-700104918,Fairholt Logistics (UK) Limited,Fairholt Industrial (UK) Limited,7236186,GB,700101657,,27,ACTIVE,,2H25
-700104936,Redbourne Technology Holdings Limited,Redbourne Technology Holdings Limited,7495563,GB,700102555,,394,ACTIVE,,2H25
-700105007,Harrowfield Industrial Holdings Limited,Harrowfield Industrial Holdings Limited,7685565,IE,700101714,,2385,ACTIVE,,2H25
-700105030,Drumcondra Insurance Group PLC,Drumcondra Industrial Group PLC,355508,IE,700101378,,1921,ACTIVE,,2H25
-700105108,Orrell Energy Ireland Limited,Orrell Energy Ireland Limited,740244,IE,700102121,,886,ACTIVE,,2H25
-700105147,Blackwater Insurance (UK) Limited,Blackwater Insurance (UK) Limited,9015843,GB,700101808,,564,ACTIVE,,2H25
-700105234,Tullamore Energy (UK) Limited,Tullamore Capital (UK) Limited,9663088,GB,700100644,,959,ACTIVE,,2H25
-700105269,Northgate Capital Group Limited,Northgate Capital Group Limited,1473060,GB,700100201,,679,ACTIVE,,2H25
-700105343,Blackwater Healthcare (UK) Limited,Blackwater Healthcare (UK) Limited,2030228,GB,700102766,,653,ACTIVE,,2H25
-700105426,Orrell Healthcare Group PLC,Orrell Healthcare Group PLC,200083,IE,700101714,,339,ACTIVE,,2H25
-700105498,Pentland Logistics Holdings Limited,Pentland Logistics Holdings Limited,6394832,GB,700102244,,455,ACTIVE,,2H25
-700105565,Deepwell Services Limited,Deepwell Services Limited,235449,GB,700101138,,1707,ACTIVE,,2H25
-700105646,Harrowfield Technology Limited,Harrowfield Technology Limited,6134571,GB,700102555,,1362,ACTIVE,,2H25
-700105742,Ardmore Technology PLC,Ardmore Technology PLC,1948644,GB,700102279,,385,ACTIVE,,2H25
-700105838,Northgate Advisory Holdings Limited,Northgate Advisory Holdings Limited,4371495,GB,700100845,,1502,ACTIVE,,2H25
-700105912,Eastvale Capital DAC,Eastvale Capital DAC,448733,IE,700102179,,2094,ACTIVE,,2H25
-700106000,Vantry Logistics (UK) Limited,Vantry Logistics (UK) Limited,8256071,GB,700102934,,1997,ACTIVE,,2H25
-700106097,Westmeath Services Unlimited Company,Westmeath Services Unlimited Company,532421,IE,700101913,,517,ACTIVE,,2H25
-700106112,Deepwell Industrial Holdings Limited,Deepwell Industrial Holdings Limited,6292753,GB,700101394,,2423,ACTIVE,,2H25
-700106157,Elmswood Industrial Group Limited,Elmswood Services Group Limited,8542922,GB,700100968,,2061,ACTIVE,,2H25
-700106174,Fairholt Financial Group PLC,Fairholt Financial Group PLC,666845,IE,700101863,,173,LIQUIDATION,,2H25
-700106249,Garrowby Retail (UK) Limited,Garrowby Retail (UK) Limited,2889723,GB,700100581,,1532,ACTIVE,,2H25
-700106296,Harrowfield Advisory Holdings Limited,Harrowfield Advisory Holdings Limited,5261529,GB,700102481,,2477,ACTIVE,,2H25
-700106317,Carrowmore Financial Limited,Carrowmore Financial Limited,147648,IE,700102121,,54,ACTIVE,,2H25
-700106346,Westmeath Financial (UK) Limited,Westmeath Financial (UK) Limited,1546909,GB,700101028,,2122,ACTIVE,,2H25
-700106382,Ulverston Energy Limited,Ulverston Energy Limited,539224,IE,700100463,,1473,ACTIVE,,2H25
-700106424,Eastvale Capital Unlimited Company,Eastvale Capital Unlimited Company,219514,IE,700101378,,2409,ACTIVE,,2H25
-700106493,Westmeath Insurance Group PLC,Westmeath Insurance Group PLC,733960,IE,700101508,,1850,ACTIVE,,2H25
-700106527,Tullamore Retail (UK) Limited,Tullamore Retail (UK) Limited,3078786,GB,700101732,,777,ACTIVE,,2H25
-700106570,Lambourne Logistics Limited,Lambourne Logistics Limited,3560659,GB,700100380,,495,ACTIVE,,2H25
-700106637,Fairholt Advisory Unlimited Company,Fairholt Advisory Unlimited Company,225459,IE,700101480,,600,ACTIVE,,2H25
-700106712,Northgate Retail Holdings Limited,Northgate Retail Holdings Limited,3906710,GB,700102766,,1043,ACTIVE,,2H25
-700106739,Westmeath Insurance Unlimited Company,Westmeath Insurance Unlimited Company,355837,IE,700101480,,440,ACTIVE,,2H25
-700106750,Fernbank Partners DAC,Fernbank Partners DAC,135442,IE,700100278,,2360,ACTIVE,,2H25
-700106766,Hollybrook Financial Group PLC,Hollybrook Logistics Group PLC,673521,IE,700102179,,1422,ACTIVE,,2H25
-700106802,Westmeath Healthcare Holdings Limited,Westmeath Healthcare Holdings Limited,4471061,GB,700100968,,451,ACTIVE,,2H25
-700106828,Harrowfield Insurance Holdings Limited,Harrowfield Insurance Holdings Limited,3456022,GB,700101074,,1232,ACTIVE,,2H25
-700106925,Fernbank Logistics PLC,Fernbank Logistics PLC,7111476,GB,700101407,,935,ACTIVE,,2H25
-700106966,Westmeath Insurance (UK) Limited,Westmeath Insurance (UK) Limited,7664203,GB,700100719,,1591,ACTIVE,,2H25
-700107057,Marlstone Partners Unlimited Company,Marlstone Partners Unlimited Company,671113,IE,700101508,,1614,ACTIVE,,2H25
-700107130,Fernbank Energy Group Limited,Fernbank Energy Group Limited,2305627,GB,700102766,,826,ACTIVE,,2H25
-700107211,Blackwater Advisory Group Limited,Blackwater Advisory Group Limited,8950759,GB,700102083,,1077,ACTIVE,,2H25
-700107237,Ballyvaughan Advisory PLC,Ballyvaughan Advisory PLC,2265986,GB,700102467,,1123,ACTIVE,,2H25
-700107299,Eastvale Partners Group PLC,Eastvale Partners Group PLC,561511,IE,700102307,,373,ACTIVE,,2H25
-700107320,Quarryhill Healthcare Ireland Limited,Quarryhill Healthcare Ireland Limited,339578,IE,700101480,,2108,ACTIVE,,2H25
-700107370,Deepwell Energy Group Limited,Deepwell Energy Group Limited,2445340,GB,700100607,,2083,ACTIVE,,2H25
-700107455,Inisfree Industrial Limited,Inisfree Industrial Limited,8680509,GB,700101028,,1559,ACTIVE,,2H25
-700107521,Blackwater Technology Ireland Limited,Blackwater Technology Ireland Limited,379556,IE,700100363,,2337,ACTIVE,,2H25
-700107595,Ardmore Partners Ireland Limited,Ardmore Partners Ireland Limited,739343,IE,700102121,,464,ACTIVE,,2H25
-700107675,Drumcondra Capital PLC,Drumcondra Capital PLC,9061815,GB,700102481,,1381,ACTIVE,,2H25
-700107758,Redbourne Technology Ireland Limited,Redbourne Technology Ireland Limited,762294,IE,700101690,,1980,ACTIVE,,2H25
-700107809,Pentland Healthcare (UK) Limited,Pentland Healthcare (UK) Limited,5353866,GB,700100968,,1165,ACTIVE,,2H25
-700107893,Lambourne Retail PLC,Lambourne Retail PLC,7978629,GB,700100845,,419,ACTIVE,,2H25
-700107982,Ardmore Insurance Group Limited,Ardmore Insurance Group Limited,7652148,GB,700102481,,2189,DISSOLVED,,2H25
-700108077,Lambourne Partners (UK) Limited,Lambourne Partners (UK) Limited,3014826,GB,700101394,,602,ACTIVE,,2H25
-700108136,Orrell Financial Group Limited,Orrell Financial Group Limited,2636263,GB,700100380,,359,ACTIVE,,2H25
-700108195,Yarrowdale Capital Holdings Limited,Yarrowdale Capital Holdings Limited,3770432,GB,700100201,,461,ACTIVE,,2H25
-700108235,Vantry Healthcare Holdings Limited,Vantry Healthcare Holdings Limited,5904337,GB,700102555,,1404,ACTIVE,,2H25
-700108272,Hollybrook Retail DAC,Hollybrook Retail DAC,378374,IE,700100463,,887,ACTIVE,,2H25
-700108291,Kilbrannan Technology Group PLC,Kilbrannan Technology Group PLC,279209,IE,700102643,,852,ACTIVE,,2H25
-700108306,Inisfree Insurance Group PLC,Inisfree Insurance Group PLC,274822,IE,700100487,,244,ACTIVE,,2H25
-700108390,Garrowby Energy (UK) Limited,Garrowby Energy (UK) Limited,6766239,GB,700100968,,566,ACTIVE,,2H25
-700108454,Redbourne Capital PLC,Redbourne Capital PLC,8445089,GB,700102083,,323,ACTIVE,,2H25
-700108484,Elmswood Technology (UK) Limited,Elmswood Insurance (UK) Limited,9271568,GB,700102905,,2059,ACTIVE,,2H25
-700108581,Drumcondra Financial (UK) Limited,Drumcondra Financial (UK) Limited,2892139,IE,700100644,,1639,ACTIVE,,2H25
-700108627,Drumcondra Insurance PLC,Drumcondra Insurance PLC,7267185,GB,700102083,,1762,DISSOLVED,,2H25
-700108669,Kilbrannan Logistics Group PLC,Kilbrannan Logistics Group PLC,128893,IE,700100955,,2291,ACTIVE,,2H25
-700108764,Yarrowdale Retail PLC,Yarrowdale Retail PLC,6026440,GB,700101714,,532,ACTIVE,,2H25
-700108798,Redbourne Energy Holdings Limited,Redbourne Advisory Holdings Limited,9337285,GB,700102905,,750,ACTIVE,,2H25
-700108839,Harrowfield Retail PLC,Harrowfield Retail PLC,5939554,GB,700102555,,1104,ACTIVE,,2H25
-700108875,Deepwell Healthcare Group Limited,Deepwell Healthcare Group Limited,2742676,GB,700100845,,473,ACTIVE,,2H25
-700108966,Lambourne Services Limited,Lambourne Services Limited,6450215,GB,700102905,,2476,ACTIVE,,2H25
-700109026,Marlstone Energy Ireland Limited,Marlstone Energy Ireland Limited,192325,IE,700100278,,109,DISSOLVED,,2H25
-700109102,Carrowmore Capital Limited,Carrowmore Capital Limited,525467,IE,700100076,,1710,ACTIVE,,2H25
-700109138,Lambourne Partners Unlimited Company,Lambourne Partners Unlimited Company,191401,IE,700102867,,1910,ACTIVE,,2H25
-700109203,Northgate Insurance Group Limited,Northgate Insurance Group Limited,4998192,GB,700100581,,1348,ACTIVE,,2H25
-700109252,Kilbrannan Partners Limited,Kilbrannan Partners Limited,7364196,GB,700100179,,569,ACTIVE,,2H25
-700109348,Ardmore Logistics Unlimited Company,Ardmore Logistics Unlimited Company,104471,IE,700100463,,898,ACTIVE,,2H25
-700109378,Vantry Healthcare Group Limited,Vantry Healthcare Group Limited,6315114,GB,700101394,,1097,ACTIVE,,2H25
-700109392,Glenmara Services (UK) Limited,Glenmara Services (UK) Limited,1347717,GB,700100380,,2057,LIQUIDATION,,2H25
-700109488,Vantry Financial PLC,Vantry Financial PLC,6415501,GB,700101808,,251,ACTIVE,,2H25
-700109546,Cranbourne Capital Unlimited Company,Cranbourne Retail Unlimited Company,256451,IE,700102307,,647,ACTIVE,,2H25
-700109630,Glenmara Healthcare (UK) Limited,Glenmara Healthcare (UK) Limited,3591694,GB,700101364,,534,LIQUIDATION,,2H25
-700109714,Stonebridge Logistics Limited,Stonebridge Logistics Limited,152926,IE,700102121,,2267,ACTIVE,,2H25
-700109793,Redbourne Healthcare Holdings Limited,Redbourne Healthcare Holdings Limited,5616626,GB,700100719,,1979,ACTIVE,,2H25
-700109820,Deepwell Retail Limited,Deepwell Retail Limited,8424406,GB,700101657,,860,DISSOLVED,,2H25
-700109916,Blackwater Services PLC,Blackwater Retail PLC,1304092,GB,700102934,,2331,ACTIVE,,2H25
-700109946,Northgate Capital Limited,Northgate Capital Limited,1036829,GB,700101290,,2092,ACTIVE,,2H25
-700110026,Ardmore Advisory Limited,Ardmore Advisory Limited,3468222,GB,700101407,,1461,ACTIVE,,2H25
-700110095,Fernbank Services Group PLC,Fernbank Services Group PLC,412078,IE,700100278,,1513,ACTIVE,,2H25
-700110156,Elmswood Logistics Ireland Limited,Elmswood Logistics Ireland Limited,578321,IE,700102307,,1653,DISSOLVED,,2H25
-700110247,Yarrowdale Industrial Group Limited,Yarrowdale Industrial Group Limited,3698086,GB,700102905,,2133,DISSOLVED,,2H25
-700110304,Stonebridge Technology DAC,Stonebridge Technology DAC,434859,IE,700102307,,98,ACTIVE,,2H25
-700110396,Yarrowdale Healthcare Unlimited Company,Yarrowdale Healthcare Unlimited Company,386557,IE,700100076,,359,LIQUIDATION,,2H25
-700110487,Quarryhill Financial Unlimited Company,Quarryhill Financial Unlimited Company,297984,IE,700100278,,372,ACTIVE,,2H25
-700110552,Deepwell Industrial Ireland Limited,Deepwell Industrial Ireland Limited,495994,IE,700100701,,2310,DISSOLVED,,2H25
-700110576,Yarrowdale Retail Holdings Limited,Yarrowdale Retail Holdings Limited,7750894,GB,700102032,,987,ACTIVE,,2H25
-700110620,Vantry Technology (UK) Limited,Vantry Technology (UK) Limited,3547558,GB,700100644,,1445,ACTIVE,,2H25
-700110699,Inisfree Capital DAC,Inisfree Capital DAC,688125,IE,700100463,,1648,ACTIVE,,2H25
-700110745,Deepwell Technology (UK) Limited,Deepwell Technology (UK) Limited,9324863,GB,700102467,,719,ACTIVE,,2H25
-700110764,Orrell Financial PLC,Orrell Financial PLC,5944785,GB,700102032,,209,ACTIVE,,2H25
-700110858,Ballyvaughan Healthcare Limited,Ballyvaughan Healthcare Limited,796542,IE,700102867,,1481,ACTIVE,,2H25
-700110881,Lambourne Advisory PLC,Lambourne Advisory PLC,2299781,GB,700102244,,536,ACTIVE,,2H25
-700110894,Garrowby Insurance Unlimited Company,Garrowby Insurance Unlimited Company,790365,IE,700100076,,2046,ACTIVE,,2H25
-700110954,Carrowmore Services Group Limited,Carrowmore Services Group Limited,4668633,GB,700101028,,250,ACTIVE,,2H25
-700111025,Stonebridge Insurance Holdings Limited,Stonebridge Insurance Holdings Limited,8714915,GB,700101714,,522,ACTIVE,,2H25
-700111042,Ardmore Technology Limited,Ardmore Technology Limited,8656731,GB,700100402,,2088,ACTIVE,,2H25
-700111103,Stonebridge Logistics PLC,Stonebridge Logistics PLC,1912433,GB,700100380,,2401,ACTIVE,,2H25
-700111149,Harrowfield Logistics DAC,Harrowfield Logistics DAC,297142,IE,700102867,,2169,ACTIVE,,2H25
-700111166,Pentland Energy (UK) Limited,Pentland Retail (UK) Limited,6605821,GB,700100719,,1738,ACTIVE,,2H25
-700111216,Lambourne Capital Limited,Lambourne Capital Limited,5557968,GB,700101074,,2192,ACTIVE,,2H25
-700111229,Ballyvaughan Retail Ireland Limited,Ballyvaughan Retail Ireland Limited,577553,IE,700102121,,132,ACTIVE,,2H25
-700111315,Fairholt Healthcare Group Limited,Fairholt Healthcare Group Limited,5028801,GB,700102934,,1548,LIQUIDATION,,2H25
-700111338,Stonebridge Technology PLC,Stonebridge Technology PLC,4691938,GB,700102738,,734,ACTIVE,,2H25
-700111430,Hollybrook Logistics Limited,Hollybrook Logistics Limited,6557978,GB,700101714,,2436,ACTIVE,,2H25
-700111471,Orrell Technology Holdings Limited,Orrell Technology Holdings Limited,7658319,GB,700102467,,515,ACTIVE,,2H25
-700111545,Vantry Advisory Ireland Limited,Vantry Advisory Ireland Limited,515538,IE,700101690,,918,ACTIVE,,2H25
-700111631,Garrowby Industrial Group Limited,Garrowby Industrial Group Limited,8255202,GB,700100380,,2027,ACTIVE,,2H25
-700111648,Cranbourne Insurance (UK) Limited,Cranbourne Insurance (UK) Limited,5509855,GB,700102467,,1548,ACTIVE,,2H25
-700111680,Carrowmore Advisory Holdings Limited,Carrowmore Advisory Holdings Limited,7405643,GB,700102032,,309,ACTIVE,,2H25
-700111769,Inisfree Insurance PLC,Inisfree Insurance PLC,4859456,GB,700100201,,2009,ACTIVE,,2H25
-700111851,Harrowfield Technology Group PLC,Harrowfield Technology Group PLC,533445,IE,700101508,,1991,ACTIVE,,2H25
-700111938,Kilbrannan Healthcare PLC,Kilbrannan Advisory PLC,5910118,GB,700101657,,624,ACTIVE,,2H25
-700112026,Quarryhill Technology Unlimited Company,Quarryhill Technology Unlimited Company,360694,IE,700102867,,2045,ACTIVE,,2H25
-700112054,Lambourne Retail Holdings Limited,Lambourne Retail Holdings Limited,6227238,GB,700100380,,666,DISSOLVED,,2H25
-700112139,Stonebridge Retail (UK) Limited,Stonebridge Retail (UK) Limited,3657108,GB,700102244,,1448,ACTIVE,,2H25
-700112178,Blackwater Healthcare PLC,Blackwater Healthcare PLC,9431840,GB,700102934,,615,ACTIVE,,2H25
-700112214,Marlstone Healthcare Holdings Limited,Marlstone Healthcare Holdings Limited,4267506,IE,700101074,,399,ACTIVE,,2H25
-700112261,Orrell Logistics Ireland Limited,Orrell Services Ireland Limited,342049,IE,700100167,,618,ACTIVE,,2H25
-700112344,Eastvale Retail Limited,Eastvale Retail Limited,159444,IE,700102867,,2066,ACTIVE,,2H25
-700112358,Orrell Insurance DAC,Orrell Advisory DAC,156142,IE,700100076,,2063,ACTIVE,,2H25
-700112388,Drumcondra Industrial (UK) Limited,Drumcondra Industrial (UK) Limited,1448705,GB,700101520,,444,ACTIVE,,2H25
-700112421,Harrowfield Energy Group PLC,Harrowfield Advisory Group PLC,223834,IE,700102397,,100,ACTIVE,,2H25
-700112442,Glenmara Insurance PLC,Glenmara Insurance PLC,5220069,GB,700102397,,1985,ACTIVE,,2H25
-700112503,Northgate Partners Ireland Limited,Northgate Partners Ireland Limited,650608,IE,700102789,,189,ACTIVE,,2H25
-700112599,Harrowfield Logistics (UK) Limited,Harrowfield Logistics (UK) Limited,2130065,GB,700101714,,537,ACTIVE,,2H25
-700112671,Fairholt Retail PLC,Fairholt Retail PLC,5761693,GB,700100607,,1863,ACTIVE,,2H25
-700112721,Cranbourne Healthcare PLC,Cranbourne Healthcare PLC,9450293,GB,700100607,,859,LIQUIDATION,,2H25
-700112794,Tullamore Logistics Group Limited,Tullamore Logistics Group Limited,8617934,GB,700100755,,1075,ACTIVE,,2H25
-700112829,Fernbank Insurance (UK) Limited,Fernbank Insurance (UK) Limited,6868225,GB,700101520,,2047,ACTIVE,,2H25
-700112880,Kilbrannan Industrial Limited,Kilbrannan Industrial Limited,5554103,GB,700100201,,698,ACTIVE,,2H25
-700112894,Elmswood Capital Holdings Limited,Elmswood Capital Holdings Limited,2852628,GB,700101520,,406,ACTIVE,,2H25
-700112985,Glenmara Insurance Unlimited Company,Glenmara Insurance Unlimited Company,568174,IE,700100278,,1742,ACTIVE,,2H25
-700113008,Quarryhill Financial Ireland Limited,Quarryhill Financial Ireland Limited,500083,IE,700100487,,648,ACTIVE,,2H25
-700113022,Vantry Services (UK) Limited,Vantry Services (UK) Limited,6453865,GB,700102905,,909,ACTIVE,,2H25
-700113094,Ballyvaughan Insurance Limited,Ballyvaughan Insurance Limited,1097634,GB,700102934,,52,ACTIVE,,2H25
-700113182,Redbourne Advisory PLC,Redbourne Advisory PLC,8550456,GB,700100755,,1888,ACTIVE,,2H25
-700113226,Hollybrook Services Holdings Limited,Hollybrook Services Holdings Limited,2340680,GB,700102032,,1918,ACTIVE,,2H25
-700113242,Ardmore Technology Unlimited Company,Ardmore Technology Unlimited Company,536799,IE,700101138,,345,ACTIVE,,2H25
-700113303,Fairholt Retail Ireland Limited,Fairholt Retail Ireland Limited,648756,IE,700100701,,2031,ACTIVE,,2H25
-700113370,Carrowmore Insurance DAC,Carrowmore Insurance DAC,400272,IE,700102307,,576,ACTIVE,,2H25
-700113466,Westmeath Logistics Limited,Westmeath Logistics Limited,316736,IE,700101138,,1059,ACTIVE,,2H25
-700113515,Yarrowdale Logistics Group Limited,Yarrowdale Logistics Group Limited,6307326,GB,700100755,,265,ACTIVE,,2H25
-700113587,Marlstone Insurance Group PLC,Marlstone Advisory Group PLC,348936,IE,700101508,,1983,ACTIVE,,2H25
-700113607,Kilbrannan Healthcare Unlimited Company,Kilbrannan Healthcare Unlimited Company,682759,IE,700101138,,1470,ACTIVE,,2H25
-700113661,Ulverston Partners DAC,Ulverston Partners DAC,173684,IE,700100167,,286,ACTIVE,,2H25
-700113708,Quarryhill Technology Group Limited,Quarryhill Insurance Group Limited,3300600,GB,700102083,,2455,ACTIVE,,2H25
-700113801,Cranbourne Healthcare Group Limited,Cranbourne Healthcare Group Limited,5480793,GB,700100968,,1398,ACTIVE,,2H25
-700113817,Fernbank Capital PLC,Fernbank Logistics PLC,8276204,GB,700102481,,2028,ACTIVE,,2H25
-700113835,Vantry Partners Ireland Limited,Vantry Partners Ireland Limited,226463,IE,700102397,,928,ACTIVE,,2H25
-700113905,Vantry Technology Limited,Vantry Technology Limited,9270937,GB,700101947,,1789,ACTIVE,,2H25
-700113976,Ardmore Logistics Limited,Ardmore Logistics Limited,2505962,GB,700102083,,1129,DISSOLVED,,2H25
-700114033,Kilbrannan Insurance Group PLC,Kilbrannan Insurance Group PLC,641973,IE,700102867,,1362,ACTIVE,,2H25
-700114098,Eastvale Services Unlimited Company,Eastvale Services Unlimited Company,566066,IE,700102121,,1743,ACTIVE,,2H25
-700114193,Drumcondra Capital Group Limited,Drumcondra Capital Group Limited,4080865,GB,700102934,,2297,ACTIVE,,2H25
-700114221,Ardmore Partners (UK) Limited,Ardmore Partners (UK) Limited,7711198,GB,700101562,,38,ACTIVE,,2H25
-700114279,Northgate Services DAC,Northgate Financial DAC,768888,IE,700100909,,215,ACTIVE,,2H25
-700114299,Quarryhill Industrial (UK) Limited,Quarryhill Industrial (UK) Limited,7018751,GB,700101808,,589,ACTIVE,,2H25
-700114325,Kilbrannan Logistics DAC,Kilbrannan Logistics DAC,209063,IE,700101138,,2013,LIQUIDATION,,2H25
-700114420,Pentland Advisory Group PLC,Pentland Retail Group PLC,258001,IE,700101480,,567,ACTIVE,,2H25
-700114464,Tullamore Partners DAC,Tullamore Partners DAC,228316,IE,700100076,,711,ACTIVE,,2H25
-700114480,Redbourne Energy Ireland Limited,Redbourne Energy Ireland Limited,781789,IE,700101690,,2441,ACTIVE,,2H25
-700114509,Fairholt Logistics Limited,Fairholt Logistics Limited,280392,IE,700101480,,2418,ACTIVE,,2H25
-700114550,Hollybrook Logistics PLC,Hollybrook Logistics PLC,1358809,GB,700101028,,351,ACTIVE,,2H25
-700114631,Lambourne Services (UK) Limited,Lambourne Services (UK) Limited,8442088,GB,700101394,,1743,ACTIVE,,2H25
-700114722,Blackwater Industrial PLC,Blackwater Industrial PLC,1735816,GB,700102905,,139,DISSOLVED,,2H25
-700114791,Garrowby Logistics Group Limited,Garrowby Logistics Group Limited,4961759,GB,700101028,,611,ACTIVE,,2H25
-700114861,Kilbrannan Capital Group Limited,Kilbrannan Capital Group Limited,2699640,IE,700102934,,941,ACTIVE,,2H25
-700114903,Hollybrook Healthcare PLC,Hollybrook Healthcare PLC,3999233,GB,700101947,,495,ACTIVE,,2H25
-700114971,Ulverston Services PLC,Ulverston Services PLC,7092161,GB,700100968,,82,ACTIVE,,2H25
-700114998,Tullamore Advisory Ireland Limited,Tullamore Advisory Ireland Limited,107891,IE,700102307,,1526,ACTIVE,,2H25
-700115046,Yarrowdale Advisory Limited,Yarrowdale Advisory Limited,2581206,GB,700101074,,1108,ACTIVE,,2H25
-700115134,Hollybrook Logistics Group PLC,Hollybrook Logistics Group PLC,535355,IE,700101224,,740,ACTIVE,,2H25
-700115204,Marlstone Insurance Limited,Marlstone Insurance Limited,4523718,GB,700100607,,1949,ACTIVE,,2H25
-700115287,Deepwell Retail Group PLC,Deepwell Retail Group PLC,214754,IE,700102397,,971,ACTIVE,,2H25
-700115320,Garrowby Services Unlimited Company,Garrowby Services Unlimited Company,106777,IE,700101690,,1047,DISSOLVED,,2H25
-700115378,Drumcondra Logistics DAC,Drumcondra Logistics DAC,591343,IE,700102867,,1143,ACTIVE,,2H25
-700115416,Drumcondra Energy PLC,Drumcondra Energy PLC,3173241,GB,700101947,,1241,ACTIVE,,2H25
-700115446,Quarryhill Advisory Limited,Quarryhill Advisory Limited,4604708,GB,700101407,,2408,ACTIVE,,2H25
-700115534,Pentland Services Limited,Pentland Services Limited,5156631,GB,700101520,,1674,ACTIVE,,2H25
-700115557,Cranbourne Capital Limited,Cranbourne Capital Limited,745804,IE,700102867,,1534,DISSOLVED,,2H25
-700115585,Harrowfield Retail Limited,Harrowfield Retail Limited,9826575,GB,700102467,,1613,ACTIVE,,2H25
-700115670,Quarryhill Insurance Group Limited,Quarryhill Insurance Group Limited,3537780,GB,700101808,,1841,ACTIVE,,2H25
-700115731,Tullamore Industrial Limited,Tullamore Industrial Limited,8092657,GB,700100701,,1249,ACTIVE,,2H25
-700115747,Ulverston Partners Group PLC,Ulverston Partners Group PLC,762242,IE,700102121,,838,ACTIVE,,2H25
-700115763,Marlstone Services Group Limited,Marlstone Services Group Limited,2630954,GB,700102467,,88,ACTIVE,,2H25
-700115797,Drumcondra Energy Limited,Drumcondra Energy Limited,577802,IE,700102643,,1590,ACTIVE,,2H25
-700115841,Cranbourne Energy Limited,Cranbourne Energy Limited,596098,IE,700101508,,1534,LIQUIDATION,,2H25
-700115933,Westmeath Partners Group Limited,Westmeath Partners Group Limited,7605974,GB,700102467,,1333,ACTIVE,,2H25
-700115979,Ardmore Capital Ireland Limited,Ardmore Capital Ireland Limited,237000,IE,700100167,,1391,DISSOLVED,,2H25
-700116013,Stonebridge Energy Limited,Stonebridge Energy Limited,7329820,GB,700100968,,1388,ACTIVE,,2H25
-700116072,Deepwell Financial Ireland Limited,Deepwell Financial Ireland Limited,322435,IE,700100363,,250,ACTIVE,,2H25
-700116159,Northgate Logistics Group Limited,Northgate Logistics Group Limited,6513662,GB,700102244,,1212,DISSOLVED,,2H25
-700116234,Northgate Capital Unlimited Company,Northgate Capital Unlimited Company,546872,GB,700100487,,526,ACTIVE,,2H25
-700116307,Blackwater Industrial (UK) Limited,Blackwater Industrial (UK) Limited,9480451,GB,700100179,,923,ACTIVE,,2H25
-700116365,Pentland Industrial Unlimited Company,Pentland Industrial Unlimited Company,102539,IE,700100909,,1265,ACTIVE,,2H25
-700116377,Northgate Financial Group PLC,Northgate Financial Group PLC,352945,IE,700102397,,2243,ACTIVE,,2H25
-700116451,Kilbrannan Retail Limited,Kilbrannan Insurance Limited,6167900,GB,700102279,,1546,ACTIVE,,2H25
-700116519,Blackwater Energy Ireland Limited,Blackwater Healthcare Ireland Limited,444380,IE,700101690,,886,ACTIVE,,2H25
-700116586,Blackwater Partners Ireland Limited,Blackwater Partners Ireland Limited,656176,IE,700102789,,899,ACTIVE,,2H25
-700116649,Ardmore Industrial Group Limited,Ardmore Industrial Group Limited,2250434,GB,700100201,,1498,ACTIVE,,2H25
-700116733,Ballyvaughan Capital (UK) Limited,Ballyvaughan Capital (UK) Limited,4305996,GB,700101520,,2444,ACTIVE,,2H25
-700116797,Vantry Industrial Ireland Limited,Vantry Industrial Ireland Limited,688041,IE,700102179,,1546,ACTIVE,,2H25
-700116827,Westmeath Advisory Holdings Limited,Westmeath Advisory Holdings Limited,3316239,GB,700102905,,657,ACTIVE,,2H25
-700116909,Kilbrannan Financial DAC,Kilbrannan Financial DAC,204403,GB,700101138,,309,ACTIVE,,2H25
-700117003,Fairholt Services Holdings Limited,Fairholt Advisory Holdings Limited,4613197,GB,700102738,,700,ACTIVE,,2H25
-700117084,Marlstone Services (UK) Limited,Marlstone Services (UK) Limited,7213351,GB,700102738,,1307,ACTIVE,,2H25
-700117123,Drumcondra Partners Limited,Drumcondra Partners Limited,8405847,GB,700102467,,589,ACTIVE,,2H25
-700117218,Stonebridge Advisory Group Limited,Stonebridge Advisory Group Limited,6567980,GB,700102867,,1595,ACTIVE,,2H25
-700117277,Ballyvaughan Capital Holdings Limited,Ballyvaughan Capital Holdings Limited,1929474,GB,700100201,,1406,ACTIVE,,2H25
-700117297,Yarrowdale Financial Holdings Limited,Yarrowdale Financial Holdings Limited,4572842,GB,700101394,,495,ACTIVE,,2H25
-700117335,Stonebridge Technology DAC,Stonebridge Technology DAC,434859,IE,700102307,,,ACTIVE,700110304,2H25
-700117430,Vantry Healthcare Group Ltd,Vantry Healthcare Group Limited,6315114,GB,700101394,,,ACTIVE,700109378,2H25
-700117479,Vantry Technology Ltd,Vantry Technology Limited,9270937,GB,700101947,,,ACTIVE,700113905,2H25
-700117503,Harrowfield Logistics DAC,Harrowfield Logistics DAC,297142,IE,700102867,,,ACTIVE,700111149,2H25
-700117528,Yarrowdale Logistics Group Ltd,Yarrowdale Logistics Group Limited,6307326,GB,700100755,,,ACTIVE,700113515,2H25
-700117588,Ardmore Industrial Group Ltd,Ardmore Industrial Group Limited,2250434,GB,700100201,,,ACTIVE,700116649,2H25
-700117651,Redbourne Technology Ireland Ltd,Redbourne Technology Ireland Limited,762294,IE,700101690,,,ACTIVE,700107758,2H25
-700117705,Westmeath Insurance Unlimited Company,Westmeath Insurance Unlimited Company,355837,IE,700101480,,,ACTIVE,700106739,2H25
-700117754,Northgate Financial Group Plc,Northgate Financial Group PLC,352945,IE,700102397,,,ACTIVE,700116377,2H25
-700117801,Ardmore Logistics Unlimited Company,Ardmore Logistics Unlimited Company,104471,IE,700100463,,,ACTIVE,700109348,2H25
-700117821,Fernbank Energy Group Ltd,Fernbank Energy Group Limited,2305627,GB,700102766,,,ACTIVE,700107130,2H25
-700117907,Carrowmore Services Group Ltd,Carrowmore Services Group Limited,4668633,GB,700101028,,,ACTIVE,700110954,2H25
-700117996,Kilbrannan Industrial Ltd,Kilbrannan Industrial Limited,5554103,GB,700100201,,,ACTIVE,700112880,2H25
-700118037,Drumcondra Energy Ltd,Drumcondra Energy Limited,577802,IE,700102643,,,ACTIVE,700115797,2H25
-700118074,Stonebridge Insurance Holdings Ltd,Stonebridge Insurance Holdings Limited,8714915,GB,700101714,,,ACTIVE,700111025,2H25
-700118155,Pentland Industrial Unlimited Company,Pentland Industrial Unlimited Company,102539,IE,700100909,,,ACTIVE,700116365,2H25
-700118227,Yarrowdale Capital Holdings Ltd,Yarrowdale Capital Holdings Limited,3770432,GB,700100201,,,ACTIVE,700108195,2H25
-700118238,Marlstone Partners Unlimited Company,Marlstone Partners Unlimited Company,671113,IE,700101508,,,ACTIVE,700107057,2H25
-700118300,Ardmore Partners Ireland Ltd,Ardmore Partners Ireland Limited,739343,IE,700102121,,,ACTIVE,700107595,2H25
-700118340,Kilbrannan Logistics Group Plc,Kilbrannan Logistics Group PLC,128893,IE,700100955,,,ACTIVE,700108669,2H25
-700118384,Harrowfield Retail Ltd,Harrowfield Retail Limited,9826575,GB,700102467,,,ACTIVE,700115585,2H25
-700118430,Redbourne Energy Ireland Ltd,Redbourne Energy Ireland Limited,781789,IE,700101690,,,ACTIVE,700114480,2H25
+700100040,Pentland Advisory Limited,Pentland Advisory Limited,643651,IE,,Pentland Advisory Limited,3628,ACTIVE,,2H25
+700100134,Cranbourne Insurance Unlimited Company,Cranbourne Insurance Unlimited Company,297859,IE,,Cranbourne Insurance Unlimited Company,2129,ACTIVE,,2H25
+700100160,Yarrowdale Services Limited,Yarrowdale Services Limited,6136993,GB,,Yarrowdale Services Limited,5823,ACTIVE,,2H25
+700100197,Blackwater Partners Limited,Blackwater Partners Limited,3550955,GB,,Blackwater Partners Limited,3140,ACTIVE,,2H25
+700100254,Kilbrannan Capital Holdings Limited,Kilbrannan Capital Holdings Limited,8285224,GB,,Kilbrannan Capital Holdings Limited,1235,ACTIVE,,2H25
+700100320,Harrowfield Partners DAC,Harrowfield Partners DAC,106504,IE,,Harrowfield Partners DAC,2701,ACTIVE,,2H25
+700100356,Lambourne Energy Unlimited Company,Lambourne Energy Unlimited Company,618008,IE,,Lambourne Energy Unlimited Company,2371,ACTIVE,,2H25
+700100446,Ballyvaughan Financial PLC,Ballyvaughan Financial PLC,8362434,GB,,Ballyvaughan Financial PLC,4087,ACTIVE,,2H25
+700100510,Carrowmore Healthcare PLC,Carrowmore Healthcare PLC,3938480,GB,,Carrowmore Healthcare PLC,4749,ACTIVE,,2H25
+700100535,Westmeath Retail Group PLC,Westmeath Retail Group PLC,163339,IE,,Westmeath Retail Group PLC,590,ACTIVE,,2H25
+700100548,Ardmore Industrial Limited,Ardmore Industrial Limited,9248459,GB,,Ardmore Industrial Limited,6552,ACTIVE,,2H25
+700100593,Yarrowdale Industrial Group Limited,Yarrowdale Industrial Group Limited,5273250,GB,,Yarrowdale Industrial Group Limited,4771,ACTIVE,,2H25
+700100680,Tullamore Advisory Ireland Limited,Tullamore Advisory Ireland Limited,782770,IE,,Tullamore Advisory Ireland Limited,6714,ACTIVE,,2H25
+700100744,Orrell Partners Holdings Limited,Orrell Partners Holdings Limited,8610263,GB,,Orrell Partners Holdings Limited,2337,ACTIVE,,2H25
+700100830,Stonebridge Financial Limited,Stonebridge Financial Limited,588654,IE,,Stonebridge Financial Limited,4991,ACTIVE,,2H25
+700100896,Tullamore Industrial DAC,Tullamore Industrial DAC,552997,IE,,Tullamore Industrial DAC,3905,ACTIVE,,2H25
+700100970,Cranbourne Financial PLC,Cranbourne Financial PLC,8792260,GB,,Cranbourne Financial PLC,1762,ACTIVE,,2H25
+700100984,Carrowmore Energy PLC,Carrowmore Energy PLC,3541005,GB,,Carrowmore Energy PLC,6669,ACTIVE,,2H25
+700101000,Lambourne Industrial Group Limited,Lambourne Industrial Group Limited,2069233,GB,,Lambourne Industrial Group Limited,5873,ACTIVE,,2H25
+700101013,Northgate Logistics Limited,Northgate Logistics Limited,280878,IE,,Northgate Logistics Limited,1287,ACTIVE,,2H25
+700101086,Fairholt Energy Limited,Fairholt Energy Limited,163415,IE,,Fairholt Energy Limited,4885,ACTIVE,,2H25
+700101114,Orrell Insurance Group Limited,Orrell Insurance Group Limited,7753358,GB,,Orrell Insurance Group Limited,7505,ACTIVE,,2H25
+700101126,Ardmore Insurance Holdings Limited,Ardmore Insurance Holdings Limited,1031754,GB,,Ardmore Insurance Holdings Limited,3415,ACTIVE,,2H25
+700101168,Drumcondra Partners (UK) Limited,Drumcondra Partners (UK) Limited,2067863,GB,,Drumcondra Partners (UK) Limited,4830,ACTIVE,,2H25
+700101263,Blackwater Financial Ireland Limited,Blackwater Financial Ireland Limited,317936,IE,,Blackwater Financial Ireland Limited,3754,ACTIVE,,2H25
+700101296,Vantry Logistics Unlimited Company,Vantry Logistics Unlimited Company,218894,IE,,Vantry Logistics Unlimited Company,4778,ACTIVE,,2H25
+700101320,Fernbank Retail Limited,Fernbank Retail Limited,5448399,GB,,Fernbank Retail Limited,6554,ACTIVE,,2H25
+700101338,Fernbank Healthcare Group Limited,Fernbank Healthcare Group Limited,4980515,GB,,Fernbank Healthcare Group Limited,7111,ACTIVE,,2H25
+700101414,Lambourne Financial Holdings Limited,Lambourne Financial Holdings Limited,7888387,GB,,Lambourne Financial Holdings Limited,4968,ACTIVE,,2H25
+700101469,Kilbrannan Industrial Unlimited Company,Kilbrannan Industrial Unlimited Company,130631,IE,,Kilbrannan Industrial Unlimited Company,8757,ACTIVE,,2H25
+700101532,Eastvale Partners DAC,Eastvale Partners DAC,288969,IE,,Eastvale Partners DAC,1071,ACTIVE,,2H25
+700101589,Orrell Insurance Limited,Orrell Insurance Limited,4512858,GB,,Orrell Insurance Limited,517,ACTIVE,,2H25
+700101648,Deepwell Technology Holdings Limited,Deepwell Technology Holdings Limited,2256055,GB,,Deepwell Technology Holdings Limited,6707,ACTIVE,,2H25
+700101712,Fernbank Retail PLC,Fernbank Retail PLC,4789865,GB,,Fernbank Retail PLC,6339,ACTIVE,,2H25
+700101760,Cranbourne Logistics Limited,Cranbourne Logistics Limited,708307,IE,,Cranbourne Logistics Limited,479,ACTIVE,,2H25
+700101825,Vantry Industrial Limited,Vantry Industrial Limited,1633903,GB,,Vantry Industrial Limited,4792,ACTIVE,,2H25
+700101860,Inisfree Financial PLC,Inisfree Financial PLC,1622608,GB,,Inisfree Financial PLC,6283,ACTIVE,,2H25
+700101888,Pentland Energy Group Limited,Pentland Energy Group Limited,2207675,GB,,Pentland Energy Group Limited,5942,ACTIVE,,2H25
+700101978,Carrowmore Financial Unlimited Company,Carrowmore Financial Unlimited Company,685535,IE,,Carrowmore Financial Unlimited Company,2783,ACTIVE,,2H25
+700102048,Stonebridge Advisory Unlimited Company,Stonebridge Advisory Unlimited Company,398044,IE,,Stonebridge Advisory Unlimited Company,6839,ACTIVE,,2H25
+700102062,Orrell Services PLC,Orrell Services PLC,2090440,GB,,Orrell Services PLC,4457,ACTIVE,,2H25
+700102136,Ardmore Energy PLC,Ardmore Energy PLC,5049942,GB,,Ardmore Energy PLC,2962,ACTIVE,,2H25
+700102224,Eastvale Advisory Holdings Limited,Eastvale Advisory Holdings Limited,1682824,GB,,Eastvale Advisory Holdings Limited,2551,ACTIVE,,2H25
+700102270,Elmswood Logistics DAC,Elmswood Logistics DAC,246058,IE,,Elmswood Logistics DAC,577,ACTIVE,,2H25
+700102300,Lambourne Technology Limited,Lambourne Technology Limited,2582339,GB,,Lambourne Technology Limited,7709,ACTIVE,,2H25
+700102328,Garrowby Insurance Holdings Limited,Garrowby Insurance Holdings Limited,9850324,GB,,Garrowby Insurance Holdings Limited,1526,ACTIVE,,2H25
+700102391,Inisfree Industrial Holdings Limited,Inisfree Industrial Holdings Limited,4595879,GB,,Inisfree Industrial Holdings Limited,5739,ACTIVE,,2H25
+700102431,Lambourne Retail DAC,Lambourne Retail DAC,204849,IE,,Lambourne Retail DAC,3644,ACTIVE,,2H25
+700102526,Marlstone Insurance DAC,Marlstone Insurance DAC,258920,IE,,Marlstone Insurance DAC,5515,ACTIVE,,2H25
+700102568,Tullamore Services (UK) Limited,Tullamore Services (UK) Limited,9423966,GB,,Tullamore Services (UK) Limited,2811,ACTIVE,,2H25
+700102582,Drumcondra Healthcare Holdings Limited,Drumcondra Healthcare Holdings Limited,5762073,GB,,Drumcondra Healthcare Holdings Limited,3036,ACTIVE,,2H25
+700102608,Inisfree Energy Limited,Inisfree Energy Limited,2883983,GB,,Inisfree Energy Limited,5562,ACTIVE,,2H25
+700102620,Glenmara Capital Ireland Limited,Glenmara Capital Ireland Limited,192700,IE,,Glenmara Capital Ireland Limited,4832,ACTIVE,,2H25
+700102671,Stonebridge Healthcare DAC,Stonebridge Healthcare DAC,518623,IE,,Stonebridge Healthcare DAC,7443,ACTIVE,,2H25
+700102702,Westmeath Partners Holdings Limited,Westmeath Partners Holdings Limited,2512732,GB,,Westmeath Partners Holdings Limited,360,ACTIVE,,2H25
+700102793,Pentland Technology Group Limited,Pentland Technology Group Limited,7708160,GB,,Pentland Technology Group Limited,3797,ACTIVE,,2H25
+700102881,Deepwell Partners Ireland Limited,Deepwell Partners Ireland Limited,742074,IE,,Deepwell Partners Ireland Limited,6730,ACTIVE,,2H25
+700102962,Tullamore Healthcare DAC,Tullamore Healthcare DAC,575750,IE,,Tullamore Healthcare DAC,374,ACTIVE,,2H25
+700102995,Deepwell Advisory PLC,Deepwell Advisory PLC,6914450,GB,,Deepwell Advisory PLC,7382,ACTIVE,,2H25
+700103026,Kilbrannan Industrial PLC,Kilbrannan Industrial PLC,8926786,GB,,Kilbrannan Industrial PLC,856,ACTIVE,,2H25
+700103041,Pentland Logistics Limited,Pentland Logistics Limited,278401,IE,,Pentland Logistics Limited,3690,ACTIVE,,2H25
+700103106,Fairholt Healthcare Unlimited Company,Fairholt Healthcare Unlimited Company,530098,IE,,Fairholt Healthcare Unlimited Company,6694,ACTIVE,,2H25
+700103137,Lambourne Capital (UK) Limited,Lambourne Capital (UK) Limited,5905757,GB,,Lambourne Capital (UK) Limited,4397,ACTIVE,,2H25
+700103232,Eastvale Healthcare PLC,Eastvale Healthcare PLC,7798739,GB,,Eastvale Healthcare PLC,4520,ACTIVE,,2H25
+700103277,Stonebridge Financial DAC,Stonebridge Financial DAC,514700,IE,,Stonebridge Financial DAC,4296,ACTIVE,,2H25
+700103295,Deepwell Retail Ireland Limited,Deepwell Retail Ireland Limited,603826,IE,,Deepwell Retail Ireland Limited,1690,ACTIVE,,2H25
+700103310,Tullamore Capital PLC,Tullamore Capital PLC,5869297,GB,,Tullamore Capital PLC,592,ACTIVE,,2H25
+700103366,Lambourne Advisory PLC,Lambourne Advisory PLC,4338899,GB,,Lambourne Advisory PLC,1690,ACTIVE,,2H25
+700103427,Westmeath Industrial Limited,Westmeath Industrial Limited,394826,IE,,Westmeath Industrial Limited,8738,ACTIVE,,2H25
+700103508,Eastvale Technology (UK) Limited,Eastvale Technology (UK) Limited,8230244,GB,,Eastvale Technology (UK) Limited,6187,ACTIVE,,2H25
+700103520,Elmswood Healthcare PLC,Elmswood Healthcare PLC,7025200,GB,,Elmswood Healthcare PLC,4084,ACTIVE,,2H25
+700103614,Eastvale Technology Ireland Limited,Eastvale Technology Ireland Limited,632508,IE,,Eastvale Technology Ireland Limited,1049,ACTIVE,,2H25
+700103711,Ballyvaughan Retail Limited,Ballyvaughan Retail Limited,720946,IE,,Ballyvaughan Retail Limited,1792,ACTIVE,,2H25
+700103763,Blackwater Logistics Group Limited,Blackwater Logistics Group Limited,9197757,GB,,Blackwater Logistics Group Limited,618,ACTIVE,,2H25
+700103849,Eastvale Energy Group Limited,Eastvale Energy Group Limited,1253459,GB,700102995,,1384,ACTIVE,,2H25
+700103942,Harrowfield Logistics PLC,Harrowfield Logistics PLC,8050240,GB,700101589,,1470,ACTIVE,,2H25
+700103957,Inisfree Capital Group Limited,Inisfree Capital Group Limited,4472427,GB,700102300,,643,ACTIVE,,2H25
+700104012,Glenmara Retail PLC,Glenmara Retail PLC,4019464,GB,700102608,,553,ACTIVE,,2H25
+700104089,Yarrowdale Services PLC,Yarrowdale Services PLC,2407981,GB,700101168,,1550,ACTIVE,,2H25
+700104104,Glenmara Capital (UK) Limited,Glenmara Capital (UK) Limited,9145493,GB,700101414,,766,ACTIVE,,2H25
+700104198,Glenmara Partners Unlimited Company,Glenmara Technology Unlimited Company,347335,IE,700100680,,2217,ACTIVE,,2H25
+700104227,Ardmore Technology PLC,Ardmore Technology PLC,2638085,GB,700103520,,2267,ACTIVE,,2H25
+700104263,Garrowby Capital PLC,Garrowby Capital PLC,6202775,GB,700103763,,2039,ACTIVE,,2H25
+700104317,Lambourne Technology Ireland Limited,Lambourne Technology Ireland Limited,516528,IE,700103041,,259,ACTIVE,,2H25
+700104398,Glenmara Insurance Group Limited,Glenmara Insurance Group Limited,6217888,GB,700101414,,2298,LIQUIDATION,,2H25
+700104425,Stonebridge Healthcare Limited,Stonebridge Healthcare Limited,1255649,GB,700102568,,576,ACTIVE,,2H25
+700104498,Deepwell Technology Unlimited Company,Deepwell Technology Unlimited Company,781602,IE,700102431,,1744,ACTIVE,,2H25
+700104561,Marlstone Technology (UK) Limited,Marlstone Insurance (UK) Limited,6731857,GB,700100744,,1117,ACTIVE,,2H25
+700104614,Harrowfield Logistics Ireland Limited,Harrowfield Logistics Ireland Limited,539215,IE,700101532,,419,ACTIVE,,2H25
+700104693,Redbourne Services PLC,Redbourne Services PLC,9841000,GB,700102582,,1527,ACTIVE,,2H25
+700104711,Redbourne Technology Unlimited Company,Redbourne Advisory Unlimited Company,723993,IE,700100040,,1590,ACTIVE,,2H25
+700104792,Quarryhill Logistics Group PLC,Quarryhill Logistics Group PLC,397568,IE,700100680,,1637,ACTIVE,,2H25
+700104815,Drumcondra Insurance Group PLC,Drumcondra Insurance Group PLC,355508,IE,700102620,,1921,ACTIVE,,2H25
+700104879,Lambourne Retail (UK) Limited,Lambourne Retail (UK) Limited,4612447,GB,700103366,,2409,ACTIVE,,2H25
+700104895,Ulverston Retail (UK) Limited,Ulverston Retail (UK) Limited,9015843,GB,700101414,,564,ACTIVE,,2H25
+700104982,Tullamore Energy Ireland Limited,Tullamore Energy Ireland Limited,665930,IE,700101296,,2120,ACTIVE,,2H25
+700105000,Glenmara Healthcare Limited,Glenmara Healthcare Limited,525128,IE,700101469,,120,ACTIVE,,2H25
+700105040,Quarryhill Capital Group Limited,Quarryhill Capital Group Limited,2030228,GB,700101114,,653,ACTIVE,,2H25
+700105123,Drumcondra Partners Holdings Limited,Drumcondra Partners Holdings Limited,8247412,GB,700100984,,1614,LIQUIDATION,,2H25
+700105146,Yarrowdale Industrial Group PLC,Yarrowdale Industrial Group PLC,357396,IE,700103041,,1165,ACTIVE,,2H25
+700105171,Marlstone Industrial Limited,Marlstone Industrial Limited,2317249,GB,700102136,,220,ACTIVE,,2H25
+700105235,Drumcondra Retail PLC,Drumcondra Retail PLC,3926014,GB,700100970,,380,ACTIVE,,2H25
+700105288,Ballyvaughan Advisory Limited,Ballyvaughan Advisory Limited,250301,IE,700100744,,910,ACTIVE,,2H25
+700105310,Inisfree Advisory Group Limited,Inisfree Advisory Group Limited,6776723,GB,700100446,,828,ACTIVE,,2H25
+700105384,Eastvale Capital PLC,Eastvale Logistics PLC,6579728,GB,700102391,,2094,ACTIVE,,2H25
+700105462,Orrell Advisory Group PLC,Orrell Advisory Group PLC,743939,IE,700101263,,475,ACTIVE,,2H25
+700105525,Eastvale Healthcare Limited,Eastvale Healthcare Limited,199500,IE,700102270,,1864,ACTIVE,,2H25
+700105617,Lambourne Insurance Holdings Limited,Lambourne Financial Holdings Limited,5529518,GB,700102224,,1925,ACTIVE,,2H25
+700105700,Pentland Retail (UK) Limited,Pentland Retail (UK) Limited,1794489,GB,700102995,,1048,ACTIVE,,2H25
+700105780,Cranbourne Capital PLC,Cranbourne Capital PLC,9405585,GB,700102793,,2233,ACTIVE,,2H25
+700105838,Drumcondra Partners Unlimited Company,Drumcondra Partners Unlimited Company,335602,IE,700100830,,1252,ACTIVE,,2H25
+700105926,Westmeath Services Limited,Westmeath Services Limited,5646179,GB,700101648,,383,ACTIVE,,2H25
+700106019,Cranbourne Capital Unlimited Company,Cranbourne Capital Unlimited Company,251339,IE,700100320,,1116,ACTIVE,,2H25
+700106034,Redbourne Technology PLC,Redbourne Technology PLC,6824643,GB,700103763,,489,ACTIVE,,2H25
+700106090,Orrell Logistics DAC,Orrell Logistics DAC,158159,IE,700102671,,1485,ACTIVE,,2H25
+700106176,Quarryhill Industrial Ireland Limited,Quarryhill Industrial Ireland Limited,556599,IE,700100830,,2481,LIQUIDATION,,2H25
+700106260,Fernbank Energy Unlimited Company,Fernbank Energy Unlimited Company,493854,IE,700102962,,2400,ACTIVE,,2H25
+700106338,Deepwell Logistics Limited,Deepwell Logistics Limited,5265011,GB,700103310,,1381,ACTIVE,,2H25
+700106356,Cranbourne Technology Limited,Cranbourne Technology Limited,8692052,GB,700101414,,1817,ACTIVE,,2H25
+700106382,Fairholt Technology (UK) Limited,Fairholt Technology (UK) Limited,7563190,GB,700102224,,2239,LIQUIDATION,,2H25
+700106415,Ballyvaughan Financial Group Limited,Ballyvaughan Financial Group Limited,3108474,GB,700102391,,2477,ACTIVE,,2H25
+700106457,Deepwell Services Limited,Deepwell Services Limited,282141,IE,700102270,,639,ACTIVE,,2H25
+700106541,Yarrowdale Capital Holdings Limited,Yarrowdale Capital Holdings Limited,9149474,GB,700100254,,2245,ACTIVE,,2H25
+700106590,Glenmara Advisory Group Limited,Glenmara Advisory Group Limited,5305274,IE,700102300,,852,ACTIVE,,2H25
+700106616,Harrowfield Insurance Holdings Limited,Harrowfield Insurance Holdings Limited,3456022,GB,700100744,,1232,ACTIVE,,2H25
+700106713,Fernbank Logistics DAC,Fernbank Logistics DAC,481967,IE,700102881,,935,ACTIVE,,2H25
+700106754,Westmeath Insurance (UK) Limited,Westmeath Insurance (UK) Limited,7664203,GB,700101414,,1591,ACTIVE,,2H25
+700106845,Marlstone Partners Unlimited Company,Marlstone Partners Unlimited Company,671113,IE,700103106,,1614,ACTIVE,,2H25
+700106877,Marlstone Healthcare Limited,Marlstone Healthcare Limited,4363872,GB,700103137,,2249,ACTIVE,,2H25
+700106973,Orrell Industrial Unlimited Company,Orrell Industrial Unlimited Company,222907,GB,700100320,,697,ACTIVE,,2H25
+700107067,Vantry Financial Group PLC,Vantry Financial Group PLC,232863,IE,700100535,,1906,ACTIVE,,2H25
+700107089,Pentland Services Group PLC,Pentland Services Group PLC,541739,IE,700102881,,2195,ACTIVE,,2H25
+700107165,Fernbank Financial Limited,Fernbank Financial Limited,444201,IE,700101469,,1996,ACTIVE,,2H25
+700107240,Hollybrook Energy (UK) Limited,Hollybrook Energy (UK) Limited,5421567,GB,700100593,,1962,ACTIVE,,2H25
+700107309,Northgate Services Group PLC,Northgate Services Group PLC,135648,IE,700100134,,692,ACTIVE,,2H25
+700107404,Tullamore Advisory Group PLC,Tullamore Advisory Group PLC,119014,IE,700101760,,2199,LIQUIDATION,,2H25
+700107484,Drumcondra Capital DAC,Drumcondra Capital DAC,603863,IE,700100830,,1381,ACTIVE,,2H25
+700107567,Vantry Industrial Holdings Limited,Vantry Partners Holdings Limited,6336412,GB,700103508,,1832,ACTIVE,,2H25
+700107650,Tullamore Financial Holdings Limited,Tullamore Financial Holdings Limited,5419004,GB,700102608,,2355,ACTIVE,,2H25
+700107734,Lambourne Retail PLC,Lambourne Retail PLC,7978629,GB,700101589,,419,ACTIVE,,2H25
+700107823,Cranbourne Healthcare Group Limited,Cranbourne Healthcare Group Limited,9948977,GB,700100197,,1298,ACTIVE,,2H25
+700107849,Yarrowdale Technology Group PLC,Yarrowdale Technology Group PLC,547094,IE,700103277,,1277,ACTIVE,,2H25
+700107872,Drumcondra Services Limited,Drumcondra Services Limited,7403460,GB,700102702,,199,DISSOLVED,,2H25
+700107904,Deepwell Logistics Group Limited,Deepwell Logistics Group Limited,5287501,GB,700102300,,1202,ACTIVE,,2H25
+700107932,Glenmara Retail DAC,Glenmara Retail DAC,378374,IE,700102270,,887,ACTIVE,,2H25
+700107982,Hollybrook Technology Group Limited,Hollybrook Technology Group Limited,3867359,GB,700100510,,852,ACTIVE,,2H25
+700107997,Inisfree Insurance Group Limited,Inisfree Insurance Group Limited,3797159,GB,700101000,,244,ACTIVE,,2H25
+700108081,Garrowby Energy Ireland Limited,Garrowby Energy Ireland Limited,460389,IE,700102048,,566,ACTIVE,,2H25
+700108158,Hollybrook Capital DAC,Hollybrook Capital DAC,565318,IE,700102671,,323,ACTIVE,,2H25
+700108192,Glenmara Advisory Unlimited Company,Glenmara Advisory Unlimited Company,684015,IE,700101013,,466,ACTIVE,,2H25
+700108288,Inisfree Insurance PLC,Inisfree Partners PLC,7267185,GB,700102608,,1762,ACTIVE,,2H25
+700108330,Kilbrannan Logistics Group Limited,Kilbrannan Logistics Group Limited,1462300,GB,700101860,,2291,ACTIVE,,2H25
+700108425,Yarrowdale Retail DAC,Yarrowdale Retail DAC,789202,GB,700101532,,1232,ACTIVE,,2H25
+700108459,Redbourne Energy Holdings Limited,Redbourne Energy Holdings Limited,9337285,GB,700100970,,750,DISSOLVED,,2H25
+700108501,Inisfree Retail DAC,Inisfree Retail DAC,215208,IE,700101532,,1736,ACTIVE,,2H25
+700108525,Deepwell Advisory Holdings Limited,Deepwell Advisory Holdings Limited,2937804,GB,700102702,,395,ACTIVE,,2H25
+700108613,Carrowmore Healthcare Holdings Limited,Carrowmore Healthcare Holdings Limited,6742621,GB,700102136,,2478,ACTIVE,,2H25
+700108627,Ardmore Retail Limited,Ardmore Financial Limited,1972710,GB,700100593,,277,ACTIVE,,2H25
+700108722,Ballyvaughan Healthcare PLC,Ballyvaughan Healthcare PLC,6733009,GB,700102608,,1534,ACTIVE,,2H25
+700108792,Tullamore Healthcare PLC,Tullamore Healthcare PLC,6504192,GB,700100593,,151,ACTIVE,,2H25
+700108839,Ballyvaughan Capital Group PLC,Ballyvaughan Capital Group PLC,244403,IE,700101978,,534,LIQUIDATION,,2H25
+700108880,Kilbrannan Partners Limited,Kilbrannan Partners Limited,328777,IE,700100134,,1783,ACTIVE,,2H25
+700108972,Orrell Healthcare Ireland Limited,Orrell Healthcare Ireland Limited,768519,IE,700101013,,1302,ACTIVE,,2H25
+700108995,Ardmore Logistics Limited,Ardmore Logistics Limited,672392,IE,700101760,,89,ACTIVE,,2H25
+700109080,Elmswood Advisory Unlimited Company,Elmswood Advisory Unlimited Company,347893,IE,700103277,,1327,ACTIVE,,2H25
+700109138,Cranbourne Capital Holdings Limited,Cranbourne Capital Holdings Limited,3503226,GB,700100446,,647,LIQUIDATION,,2H25
+700109222,Glenmara Healthcare (UK) Limited,Glenmara Healthcare (UK) Limited,3591694,GB,700102608,,534,ACTIVE,,2H25
+700109304,Drumcondra Logistics Limited,Drumcondra Healthcare Limited,1846822,GB,700103763,,2267,ACTIVE,,2H25
+700109383,Redbourne Healthcare Holdings Limited,Redbourne Healthcare Holdings Limited,5616626,GB,700101414,,1979,ACTIVE,,2H25
+700109410,Deepwell Retail Limited,Deepwell Retail Limited,8424406,GB,700103310,,860,ACTIVE,,2H25
+700109431,Northgate Technology Group Limited,Northgate Technology Group Limited,1967518,GB,700100254,,100,DISSOLVED,,2H25
+700109507,Pentland Retail Limited,Pentland Financial Limited,759879,IE,700100040,,511,ACTIVE,,2H25
+700109563,Carrowmore Industrial PLC,Carrowmore Industrial PLC,2275074,GB,700101000,,1649,ACTIVE,,2H25
+700109621,Ballyvaughan Healthcare DAC,Ballyvaughan Healthcare DAC,662819,IE,700101978,,1873,ACTIVE,,2H25
+700109712,Pentland Logistics Holdings Limited,Pentland Energy Holdings Limited,8812895,GB,700102608,,1960,ACTIVE,,2H25
+700109743,Cranbourne Retail Holdings Limited,Cranbourne Retail Holdings Limited,3679095,GB,700103763,,999,ACTIVE,,2H25
+700109756,Ardmore Advisory Group Limited,Ardmore Advisory Group Limited,5406982,IE,700102062,,1124,ACTIVE,,2H25
+700109775,Lambourne Logistics Limited,Lambourne Services Limited,4447676,GB,700100593,,1744,ACTIVE,,2H25
+700109846,Fairholt Partners Ireland Limited,Fairholt Partners Ireland Limited,495994,IE,700100896,,2310,ACTIVE,,2H25
+700109927,Elmswood Financial Group Limited,Elmswood Financial Group Limited,5022693,GB,700100744,,777,ACTIVE,,2H25
+700110020,Fernbank Partners (UK) Limited,Fernbank Partners (UK) Limited,3547558,GB,700101712,,1445,ACTIVE,,2H25
+700110099,Inisfree Capital PLC,Inisfree Capital PLC,7729919,GB,700100510,,1152,ACTIVE,,2H25
+700110133,Redbourne Retail Ireland Limited,Redbourne Retail Ireland Limited,620303,IE,700100830,,719,ACTIVE,,2H25
+700110197,Inisfree Logistics Holdings Limited,Inisfree Logistics Holdings Limited,1839086,GB,700100510,,1577,ACTIVE,,2H25
+700110293,Elmswood Energy Limited,Elmswood Energy Limited,451046,IE,700100134,,855,ACTIVE,,2H25
+700110320,Ardmore Capital Ireland Limited,Ardmore Capital Ireland Limited,447922,IE,700100535,,2046,ACTIVE,,2H25
+700110380,Carrowmore Services Group Limited,Carrowmore Services Group Limited,4668633,GB,700102136,,250,ACTIVE,,2H25
+700110451,Stonebridge Insurance Holdings Limited,Stonebridge Insurance Holdings Limited,8714915,GB,700103520,,522,ACTIVE,,2H25
+700110468,Ardmore Technology Limited,Ardmore Financial Limited,578545,IE,700100830,,2088,ACTIVE,,2H25
+700110529,Stonebridge Logistics DAC,Stonebridge Logistics DAC,157027,IE,700100680,,2401,ACTIVE,,2H25
+700110569,Glenmara Technology PLC,Glenmara Technology PLC,9864361,GB,700101825,,935,ACTIVE,,2H25
+700110638,Lambourne Insurance Ireland Limited,Lambourne Insurance Ireland Limited,450363,IE,700100356,,1738,ACTIVE,,2H25
+700110688,Lambourne Capital Limited,Lambourne Capital Limited,384873,GB,700102270,,2192,ACTIVE,,2H25
+700110768,Yarrowdale Insurance Group Limited,Yarrowdale Insurance Group Limited,1524158,GB,700100160,,2424,ACTIVE,,2H25
+700110834,Harrowfield Healthcare Limited,Harrowfield Healthcare Limited,3952213,GB,700102048,,683,ACTIVE,,2H25
+700110867,Stonebridge Advisory PLC,Stonebridge Retail PLC,2741141,GB,700101414,,1361,ACTIVE,,2H25
+700110933,Fernbank Financial Group PLC,Fernbank Financial Group PLC,230717,IE,700103137,,2222,ACTIVE,,2H25
+700111027,Westmeath Retail Group Limited,Westmeath Retail Group Limited,4743473,GB,700103232,,414,LIQUIDATION,,2H25
+700111092,Yarrowdale Healthcare Group PLC,Yarrowdale Healthcare Group PLC,149317,IE,700102881,,2339,ACTIVE,,2H25
+700111151,Vantry Partners DAC,Vantry Partners DAC,172184,IE,700103366,,1183,ACTIVE,,2H25
+700111171,Blackwater Insurance Unlimited Company,Blackwater Insurance Unlimited Company,749288,IE,700102526,,881,ACTIVE,,2H25
+700111244,Fernbank Industrial Group PLC,Fernbank Industrial Group PLC,608481,IE,700101469,,2178,ACTIVE,,2H25
+700111307,Glenmara Financial PLC,Glenmara Financial PLC,9215292,GB,700102568,,569,ACTIVE,,2H25
+700111349,Ballyvaughan Industrial Limited,Ballyvaughan Industrial Limited,3269946,GB,700101648,,1407,ACTIVE,,2H25
+700111393,Kilbrannan Advisory DAC,Kilbrannan Advisory DAC,709598,IE,700103614,,2204,ACTIVE,,2H25
+700111483,Blackwater Healthcare DAC,Blackwater Healthcare DAC,626990,IE,700103427,,615,ACTIVE,,2H25
+700111519,Marlstone Healthcare Holdings Limited,Marlstone Healthcare Holdings Limited,4267506,GB,700102224,,399,ACTIVE,,2H25
+700111566,Orrell Logistics (UK) Limited,Orrell Insurance (UK) Limited,4872792,GB,700100160,,618,ACTIVE,,2H25
+700111595,Stonebridge Services Limited,Stonebridge Services Limited,627657,IE,700103711,,50,ACTIVE,,2H25
+700111661,Tullamore Technology Limited,Tullamore Technology Limited,9433038,GB,700100197,,2027,ACTIVE,,2H25
+700111731,Ulverston Capital Limited,Ulverston Capital Limited,284513,IE,700101013,,935,ACTIVE,,2H25
+700111796,Glenmara Insurance PLC,Glenmara Insurance PLC,5220069,GB,700102062,,1985,ACTIVE,,2H25
+700111856,Ballyvaughan Retail (UK) Limited,Ballyvaughan Retail (UK) Limited,1757056,GB,700102582,,2295,ACTIVE,,2H25
+700111895,Fairholt Retail Limited,Fairholt Retail Limited,3179612,GB,700101414,,744,ACTIVE,,2H25
+700111976,Ballyvaughan Partners DAC,Ballyvaughan Partners DAC,397605,IE,700103106,,1863,ACTIVE,,2H25
+700112026,Cranbourne Healthcare PLC,Cranbourne Energy PLC,9450293,GB,700101126,,859,ACTIVE,,2H25
+700112099,Tullamore Logistics Group PLC,Tullamore Logistics Group PLC,576120,IE,700101532,,1075,ACTIVE,,2H25
+700112134,Fernbank Insurance (UK) Limited,Fernbank Insurance (UK) Limited,6868225,GB,700103137,,2047,ACTIVE,,2H25
+700112185,Kilbrannan Industrial Limited,Kilbrannan Industrial Limited,384631,IE,700100356,,698,ACTIVE,,2H25
+700112199,Elmswood Capital Holdings Limited,Elmswood Capital Holdings Limited,2852628,GB,700103137,,406,ACTIVE,,2H25
+700112290,Glenmara Insurance Unlimited Company,Glenmara Insurance Unlimited Company,568174,IE,700100535,,1742,ACTIVE,,2H25
+700112313,Quarryhill Financial Ireland Limited,Quarryhill Services Ireland Limited,500083,IE,700101013,,648,ACTIVE,,2H25
+700112360,Ballyvaughan Capital Limited,Ballyvaughan Capital Limited,6453865,GB,700103041,,909,ACTIVE,,2H25
+700112449,Ardmore Capital Limited,Ardmore Capital Limited,353556,IE,700103106,,2472,LIQUIDATION,,2H25
+700112542,Drumcondra Technology Group PLC,Drumcondra Technology Group PLC,582242,IE,700101114,,1074,ACTIVE,,2H25
+700112599,Elmswood Services Group PLC,Elmswood Services Group PLC,472188,IE,700100535,,168,LIQUIDATION,,2H25
+700112626,Inisfree Healthcare Limited,Inisfree Healthcare Limited,4519525,GB,700100197,,1606,ACTIVE,,2H25
+700112708,Redbourne Industrial Group PLC,Redbourne Industrial Group PLC,171974,IE,700103614,,2314,ACTIVE,,2H25
+700112755,Yarrowdale Technology Holdings Limited,Yarrowdale Technology Holdings Limited,4992591,GB,700101320,,481,ACTIVE,,2H25
+700112798,Harrowfield Financial PLC,Harrowfield Financial PLC,8746018,GB,700101320,,1300,ACTIVE,,2H25
+700112870,Ballyvaughan Industrial Holdings Limited,Ballyvaughan Technology Holdings Limited,7547055,GB,700100510,,977,ACTIVE,,2H25
+700112926,Cranbourne Services Unlimited Company,Cranbourne Services Unlimited Company,527138,IE,700103106,,1092,ACTIVE,,2H25
+700112982,Ardmore Energy Ireland Limited,Ardmore Energy Ireland Limited,765713,IE,700103614,,908,ACTIVE,,2H25
+700113001,Quarryhill Technology Group Limited,Quarryhill Technology Group Limited,3300600,GB,700100510,,2455,ACTIVE,,2H25
+700113094,Cranbourne Healthcare Group PLC,Cranbourne Healthcare Group PLC,703123,IE,700101978,,1098,DISSOLVED,,2H25
+700113110,Fernbank Capital DAC,Fernbank Capital DAC,771063,IE,700102270,,1781,ACTIVE,,2H25
+700113128,Vantry Partners (UK) Limited,Vantry Partners (UK) Limited,3023422,GB,700103232,,928,ACTIVE,,2H25
+700113222,Fernbank Capital Group Limited,Fernbank Capital Group Limited,8309221,GB,700103026,,1940,DISSOLVED,,2H25
+700113290,Drumcondra Services Unlimited Company,Drumcondra Services Unlimited Company,480277,IE,700100320,,1261,ACTIVE,,2H25
+700113367,Lambourne Advisory Group Limited,Lambourne Advisory Group Limited,3485738,GB,700102608,,423,ACTIVE,,2H25
+700113434,Elmswood Healthcare Limited,Elmswood Healthcare Limited,7541385,GB,700102391,,757,LIQUIDATION,,2H25
+700113509,Eastvale Capital Ireland Limited,Eastvale Capital Ireland Limited,519449,IE,700103614,,38,ACTIVE,,2H25
+700113567,Northgate Services DAC,Northgate Services DAC,768888,IE,700101760,,215,ACTIVE,,2H25
+700113639,Quarryhill Retail Unlimited Company,Quarryhill Retail Unlimited Company,249639,IE,700102224,,1471,ACTIVE,,2H25
+700113688,Glenmara Technology Limited,Glenmara Technology Limited,614088,IE,700100896,,1924,ACTIVE,,2H25
+700113785,Northgate Technology DAC,Northgate Technology DAC,111990,IE,700102881,,1088,DISSOLVED,,2H25
+700113811,Drumcondra Technology Ireland Limited,Drumcondra Technology Ireland Limited,142492,IE,700101469,,2076,ACTIVE,,2H25
+700113895,Fairholt Advisory (UK) Limited,Fairholt Advisory (UK) Limited,8756586,GB,700100134,,592,ACTIVE,,2H25
+700113990,Deepwell Technology Ireland Limited,Deepwell Technology Ireland Limited,432266,IE,700101296,,974,ACTIVE,,2H25
+700114022,Drumcondra Capital Limited,Drumcondra Capital Limited,551318,IE,700101469,,2251,ACTIVE,,2H25
+700114048,Garrowby Insurance (UK) Limited,Garrowby Insurance (UK) Limited,8442088,GB,700102136,,1743,ACTIVE,,2H25
+700114117,Fernbank Partners Limited,Fernbank Partners Limited,134443,IE,700100320,,1315,ACTIVE,,2H25
+700114158,Ballyvaughan Industrial PLC,Ballyvaughan Industrial PLC,3485047,GB,700102995,,1903,ACTIVE,,2H25
+700114173,Pentland Services PLC,Pentland Services PLC,5148421,GB,700103508,,1585,ACTIVE,,2H25
+700114262,Kilbrannan Industrial (UK) Limited,Kilbrannan Industrial (UK) Limited,2199984,GB,700101000,,989,LIQUIDATION,,2H25
+700114275,Ballyvaughan Advisory PLC,Ballyvaughan Advisory PLC,9853463,GB,700103310,,35,ACTIVE,,2H25
+700114328,Elmswood Partners Unlimited Company,Elmswood Partners Unlimited Company,500775,IE,700102431,,2418,ACTIVE,,2H25
+700114421,Vantry Capital (UK) Limited,Vantry Capital (UK) Limited,2581206,GB,700102608,,1108,ACTIVE,,2H25
+700114509,Hollybrook Logistics Group PLC,Hollybrook Logistics Group PLC,535355,IE,700102431,,740,ACTIVE,,2H25
+700114579,Marlstone Insurance Limited,Marlstone Insurance Limited,4523718,GB,700101126,,1949,ACTIVE,,2H25
+700114605,Elmswood Retail Group PLC,Elmswood Retail Group PLC,214754,IE,700103711,,971,ACTIVE,,2H25
+700114638,Garrowby Services Holdings Limited,Garrowby Services Holdings Limited,1108442,GB,700103508,,1047,ACTIVE,,2H25
+700114696,Drumcondra Logistics DAC,Drumcondra Logistics DAC,591343,GB,700103427,,1143,ACTIVE,,2H25
+700114748,Fernbank Partners PLC,Fernbank Partners PLC,6064465,GB,700101338,,1838,ACTIVE,,2H25
+700114822,Westmeath Services DAC,Westmeath Services DAC,715417,IE,700100535,,1995,ACTIVE,,2H25
+700114848,Carrowmore Retail DAC,Carrowmore Retail DAC,527319,IE,700102881,,418,ACTIVE,,2H25
+700114874,Ulverston Energy DAC,Ulverston Energy DAC,354333,IE,700100356,,2283,LIQUIDATION,,2H25
+700114952,Ulverston Healthcare (UK) Limited,Ulverston Healthcare (UK) Limited,9235950,GB,700100744,,2326,ACTIVE,,2H25
+700114982,Pentland Healthcare Ireland Limited,Pentland Healthcare Ireland Limited,598401,IE,700102671,,13,LIQUIDATION,,2H25
+700115077,Kilbrannan Advisory Limited,Kilbrannan Advisory Limited,7632366,GB,700102702,,838,ACTIVE,,2H25
+700115132,Deepwell Healthcare Limited,Deepwell Healthcare Limited,121440,IE,700100320,,762,ACTIVE,,2H25
+700115229,Deepwell Industrial Group PLC,Deepwell Logistics Group PLC,594277,IE,700102431,,1071,ACTIVE,,2H25
+700115241,Elmswood Industrial Holdings Limited,Elmswood Industrial Holdings Limited,8112976,GB,700102328,,1774,LIQUIDATION,,2H25
+700115293,Ardmore Financial Limited,Ardmore Financial Limited,1133033,IE,700102582,,2487,ACTIVE,,2H25
+700115347,Lambourne Retail Holdings Limited,Lambourne Retail Holdings Limited,2190389,GB,700100970,,1550,ACTIVE,,2H25
+700115369,Northgate Services Unlimited Company,Northgate Services Unlimited Company,638668,IE,700102270,,873,LIQUIDATION,,2H25
+700115456,Northgate Logistics Group Limited,Northgate Logistics Group Limited,6513662,GB,700100446,,1212,ACTIVE,,2H25
+700115531,Northgate Capital Holdings Limited,Northgate Capital Holdings Limited,8149961,GB,700101000,,526,ACTIVE,,2H25
+700115604,Blackwater Industrial (UK) Limited,Blackwater Industrial (UK) Limited,9480451,GB,700100254,,923,ACTIVE,,2H25
+700115662,Pentland Industrial Unlimited Company,Pentland Industrial Unlimited Company,102539,IE,700101760,,1265,DISSOLVED,,2H25
+700115722,Elmswood Financial Group PLC,Elmswood Financial Group PLC,352945,IE,700100134,,2243,ACTIVE,,2H25
+700115769,Redbourne Capital Holdings Limited,Redbourne Capital Holdings Limited,7313009,GB,700102793,,2222,ACTIVE,,2H25
+700115786,Marlstone Retail Unlimited Company,Marlstone Financial Unlimited Company,325694,IE,700102962,,1824,ACTIVE,,2H25
+700115867,Redbourne Logistics Limited,Redbourne Logistics Limited,527796,IE,700100320,,83,ACTIVE,,2H25
+700115934,Marlstone Industrial Ireland Limited,Marlstone Industrial Ireland Limited,515715,IE,700102881,,1909,ACTIVE,,2H25
+700115948,Vantry Insurance PLC,Vantry Insurance PLC,8055405,GB,700101000,,506,ACTIVE,,2H25
+700115973,Vantry Industrial (UK) Limited,Vantry Industrial (UK) Limited,7314461,GB,700103520,,615,ACTIVE,,2H25
+700116001,Fernbank Energy (UK) Limited,Fernbank Energy (UK) Limited,6165675,GB,700102328,,1051,ACTIVE,,2H25
+700116024,Fairholt Services Holdings Limited,Fairholt Services Holdings Limited,9803101,GB,700103427,,555,ACTIVE,,2H25
+700116075,Hollybrook Logistics PLC,Hollybrook Logistics PLC,2835253,IE,700100593,,1480,ACTIVE,,2H25
+700116131,Deepwell Retail Holdings Limited,Deepwell Industrial Holdings Limited,6333337,GB,700102608,,906,ACTIVE,,2H25
+700116198,Eastvale Financial (UK) Limited,Eastvale Financial (UK) Limited,9231345,GB,700100593,,1364,ACTIVE,,2H25
+700116215,Northgate Partners Limited,Northgate Partners Limited,5834495,GB,700102568,,231,ACTIVE,,2H25
+700116281,Carrowmore Partners Unlimited Company,Carrowmore Partners Unlimited Company,407374,IE,700102270,,877,ACTIVE,,2H25
+700116300,Quarryhill Insurance Ireland Limited,Quarryhill Insurance Ireland Limited,767438,IE,700100896,,1901,ACTIVE,,2H25
+700116367,Inisfree Industrial Ireland Limited,Inisfree Industrial Ireland Limited,188644,IE,700101978,,1809,ACTIVE,,2H25
+700116408,Redbourne Retail Group Limited,Redbourne Retail Group Limited,2406625,GB,700103711,,1453,ACTIVE,,2H25
+700116478,Pentland Energy (UK) Limited,Pentland Energy (UK) Limited,9762102,GB,700101860,,2325,ACTIVE,,2H25
+700116537,Kilbrannan Energy Group PLC,Kilbrannan Logistics Group PLC,707542,IE,700101532,,233,ACTIVE,,2H25
+700116550,Harrowfield Healthcare Holdings Limited,Harrowfield Healthcare Holdings Limited,6460911,GB,700100160,,863,ACTIVE,,2H25
+700116634,Vantry Technology (UK) Limited,Vantry Technology (UK) Limited,3515029,GB,700102995,,269,DISSOLVED,,2H25
+700116727,Westmeath Financial Group Limited,Westmeath Financial Group Limited,8958399,GB,700103232,,1342,ACTIVE,,2H25
+700116758,Westmeath Logistics Group PLC,Westmeath Logistics Group PLC,524646,IE,700102671,,753,ACTIVE,,2H25
+700116788,Fernbank Advisory Limited,Fernbank Advisory Limited,424669,IE,700101532,,683,ACTIVE,,2H25
+700116805,Pentland Services Unlimited Company,Pentland Services Unlimited Company,110771,IE,700100535,,773,ACTIVE,,2H25
+700116830,Pentland Technology Limited,Pentland Technology Limited,539021,IE,700102620,,910,ACTIVE,,2H25
+700116922,Cranbourne Healthcare Unlimited Company,Cranbourne Healthcare Unlimited Company,553203,IE,700100896,,2398,ACTIVE,,2H25
+700116953,Marlstone Insurance Ireland Limited,Marlstone Insurance Ireland Limited,520606,IE,700102270,,1021,LIQUIDATION,,2H25
+700117028,Glenmara Retail Group Limited,Glenmara Healthcare Group Limited,1235443,GB,700100160,,361,ACTIVE,,2H25
+700117114,Garrowby Technology Limited,Garrowby Technology Limited,198667,IE,700100446,,2118,ACTIVE,,2H25
+700117199,Stonebridge Industrial Limited,Stonebridge Industrial Limited,3981270,GB,700102224,,210,ACTIVE,,2H25
+700117281,Hollybrook Logistics Unlimited Company,Hollybrook Logistics Unlimited Company,333747,IE,700101760,,878,ACTIVE,,2H25
+700117305,Deepwell Healthcare Group PLC,Deepwell Services Group PLC,454392,IE,700101978,,1245,ACTIVE,,2H25
+700117325,Tullamore Insurance PLC,Tullamore Insurance PLC,4450308,GB,700101860,,2251,ACTIVE,,2H25
+700117336,Elmswood Healthcare DAC,Elmswood Healthcare DAC,371049,IE,700100984,,1146,ACTIVE,,2H25
+700117432,Eastvale Advisory (UK) Limited,Eastvale Advisory (UK) Limited,4764679,GB,700102995,,2072,ACTIVE,,2H25
+700117498,Pentland Services Limited,Pentland Services Limited,1326433,GB,700103508,,2117,ACTIVE,,2H25
+700117582,Cranbourne Logistics DAC,Cranbourne Advisory DAC,557896,IE,700101760,,500,ACTIVE,,2H25
+700117636,Garrowby Partners Limited,Garrowby Partners Limited,5220568,GB,700103508,,1255,ACTIVE,,2H25
+700117651,Westmeath Healthcare DAC,Westmeath Healthcare DAC,121403,IE,700103711,,1514,ACTIVE,,2H25
+700117684,Pentland Energy Group PLC,Pentland Energy Group PLC,438048,IE,700103427,,1835,ACTIVE,,2H25
+700117776,Ulverston Capital Group Limited,Ulverston Capital Group Limited,6599421,GB,700100197,,441,ACTIVE,,2H25
+700117848,Blackwater Healthcare Holdings Limited,Blackwater Healthcare Holdings Limited,5490317,GB,700102391,,2307,ACTIVE,,2H25
+700117942,Pentland Logistics Unlimited Company,Pentland Logistics Unlimited Company,431355,IE,700102526,,1994,ACTIVE,,2H25
+700118005,Harrowfield Energy Limited,Harrowfield Energy Limited,567823,IE,700101013,,1610,ACTIVE,,2H25
+700118092,Inisfree Retail PLC,Inisfree Retail PLC,4566042,IE,700100984,,731,ACTIVE,,2H25
+700118153,Northgate Partners Ireland Limited,Northgate Partners Ireland Limited,742052,IE,700101296,,2147,ACTIVE,,2H25
+700118200,Glenmara Partners (UK) Limited,Glenmara Partners (UK) Limited,5103872,GB,700101168,,1809,ACTIVE,,2H25
+700118285,Yarrowdale Partners Limited,Yarrowdale Partners Limited,224629,IE,700102671,,767,DISSOLVED,,2H25
+700118344,Tullamore Financial Group Limited,Tullamore Retail Group Limited,1816460,GB,700100970,,653,ACTIVE,,2H25
+700118418,Carrowmore Healthcare Group PLC,Carrowmore Healthcare Group PLC,310617,IE,700102431,,1762,ACTIVE,,2H25
+700118490,Ballyvaughan Retail Ireland Limited,Ballyvaughan Services Ireland Limited,493519,IE,700103041,,1638,ACTIVE,,2H25
+700118552,Ballyvaughan Healthcare Holdings Limited,Ballyvaughan Healthcare Holdings Limited,3958959,GB,700101825,,215,ACTIVE,,2H25
+700118640,Orrell Services Group PLC,Orrell Services Group PLC,116122,IE,700102671,,1446,ACTIVE,,2H25
+700118720,Elmswood Technology Holdings Limited,Elmswood Technology Holdings Limited,1693215,GB,700101825,,1870,ACTIVE,,2H25
+700118744,Cranbourne Technology Ireland Limited,Cranbourne Technology Ireland Limited,698195,IE,700103763,,937,ACTIVE,,2H25
+700118787,Marlstone Advisory Group PLC,Marlstone Advisory Group PLC,637222,IE,700103106,,540,ACTIVE,,2H25
+700118862,Drumcondra Retail Group Limited,Drumcondra Retail Group Limited,7290399,IE,700100160,,2068,ACTIVE,,2H25
+700118913,Tullamore Services Group Limited,Tullamore Services Group Limited,1398613,IE,700100197,,769,ACTIVE,,2H25
+700118937,Redbourne Retail Limited,Redbourne Services Limited,6160877,GB,700103232,,860,ACTIVE,,2H25
+700119029,Carrowmore Partners Holdings Limited,Carrowmore Partners Holdings Limited,2908821,GB,700101168,,1522,ACTIVE,,2H25
+700119113,Elmswood Retail (UK) Limited,Elmswood Retail (UK) Limited,8434194,GB,700101860,,260,LIQUIDATION,,2H25
+700119149,Garrowby Technology PLC,Garrowby Technology PLC,8953862,GB,700103508,,2414,ACTIVE,,2H25
+700119190,Yarrowdale Healthcare Ireland Limited,Yarrowdale Healthcare Ireland Limited,449826,IE,700100040,,2328,ACTIVE,,2H25
+700119273,Fairholt Capital PLC,Fairholt Capital PLC,8212428,GB,700100744,,1402,ACTIVE,,2H25
+700119308,Westmeath Technology Group PLC,Westmeath Technology Group PLC,412994,IE,700100830,,893,ACTIVE,,2H25
+700119345,Hollybrook Capital PLC,Hollybrook Capital PLC,4863187,GB,700102702,,1734,ACTIVE,,2H25
+700119410,Kilbrannan Industrial DAC,Kilbrannan Industrial DAC,788639,IE,700102526,,2348,ACTIVE,,2H25
+700119491,Harrowfield Capital Unlimited Company,Harrowfield Capital Unlimited Company,108483,IE,700100134,,2408,ACTIVE,,2H25
+700119533,Eastvale Insurance PLC,Eastvale Insurance PLC,3143696,GB,700100984,,712,ACTIVE,,2H25
+700119602,Cranbourne Technology Holdings Limited,Cranbourne Technology Holdings Limited,5050756,GB,700101126,,837,LIQUIDATION,,2H25
+700119697,Kilbrannan Partners PLC,Kilbrannan Partners PLC,4523525,GB,700103508,,1445,ACTIVE,,2H25
+700119793,Ballyvaughan Insurance Holdings Limited,Ballyvaughan Insurance Holdings Limited,5805581,GB,700102391,,1184,ACTIVE,,2H25
+700119869,Redbourne Financial Ireland Limited,Redbourne Financial Ireland Limited,484524,IE,700100680,,2388,ACTIVE,,2H25
+700119885,Redbourne Healthcare Limited,Redbourne Healthcare Limited,7072240,GB,700102582,,259,ACTIVE,,2H25
+700119951,Ardmore Services DAC,Ardmore Services DAC,669146,IE,700102526,,1999,ACTIVE,,2H25
+700119998,Ulverston Technology Group Limited,Ulverston Technology Group Limited,5082522,GB,700101712,,2116,ACTIVE,,2H25
+700120016,Garrowby Healthcare Holdings Limited,Garrowby Healthcare Holdings Limited,3095188,GB,700101000,,1282,ACTIVE,,2H25
+700120074,Blackwater Services Ireland Limited,Blackwater Services Ireland Limited,482097,IE,700102048,,1925,ACTIVE,,2H25
+700120132,Westmeath Retail Limited,Westmeath Retail Limited,512800,IE,700101760,,1118,ACTIVE,,2H25
+700120200,Quarryhill Energy Ireland Limited,Quarryhill Energy Ireland Limited,788460,IE,700101296,,847,ACTIVE,,2H25
+700120221,Vantry Insurance Ireland Limited,Vantry Insurance Ireland Limited,677121,IE,700103295,,29,ACTIVE,,2H25
+700120235,Fairholt Healthcare Limited,Fairholt Healthcare Limited,3267642,GB,700102328,,1675,ACTIVE,,2H25
+700120296,Glenmara Partners Group Limited,Glenmara Partners Group Limited,1844855,GB,700102062,,1438,ACTIVE,,2H25
+700120322,Marlstone Insurance (UK) Limited,Marlstone Insurance (UK) Limited,5063585,GB,700100446,,786,ACTIVE,,2H25
+700120381,Cranbourne Capital Group Limited,Cranbourne Capital Group Limited,5144307,GB,700102793,,1010,ACTIVE,,2H25
+700120445,Ballyvaughan Energy Unlimited Company,Ballyvaughan Energy Unlimited Company,118415,IE,700101532,,271,LIQUIDATION,,2H25
+700120540,Elmswood Partners DAC,Elmswood Partners DAC,747140,IE,700103041,,656,ACTIVE,,2H25
+700120633,Ulverston Insurance Unlimited Company,Ulverston Insurance Unlimited Company,661849,IE,700102881,,2115,ACTIVE,,2H25
+700120710,Fernbank Services Group PLC,Fernbank Services Group PLC,601014,IE,700103614,,969,DISSOLVED,,2H25
+700120761,Northgate Healthcare (UK) Limited,Northgate Healthcare (UK) Limited,5227211,GB,700103763,,1910,ACTIVE,,2H25
+700120778,Eastvale Energy Group PLC,Eastvale Partners Group PLC,358674,IE,700100134,,2420,ACTIVE,,2H25
+700120806,Fairholt Logistics Group Limited,Fairholt Logistics Group Limited,7428233,GB,700102995,,840,DISSOLVED,,2H25
+700120839,Yarrowdale Financial (UK) Limited,Yarrowdale Financial (UK) Limited,4630334,GB,700103137,,2471,ACTIVE,,2H25
+700120868,Hollybrook Logistics Holdings Limited,Hollybrook Capital Holdings Limited,2195606,GB,700102702,,118,ACTIVE,,2H25
+700120936,Ballyvaughan Services Group PLC,Ballyvaughan Services Group PLC,633112,IE,700103614,,1437,ACTIVE,,2H25
+700120982,Garrowby Capital Limited,Garrowby Capital Limited,707455,IE,700103106,,741,LIQUIDATION,,2H25
+700121079,Ballyvaughan Services PLC,Ballyvaughan Services PLC,9483922,GB,700102608,,2090,ACTIVE,,2H25
+700121174,Ardmore Retail Unlimited Company,Ardmore Retail Unlimited Company,549464,IE,700100830,,1675,ACTIVE,,2H25
+700121223,Stonebridge Healthcare PLC,Stonebridge Healthcare PLC,2076353,GB,700103763,,873,ACTIVE,,2H25
+700121243,Marlstone Retail Limited,Marlstone Retail Limited,332329,IE,700101296,,2231,ACTIVE,,2H25
+700121264,Drumcondra Energy Unlimited Company,Drumcondra Energy Unlimited Company,688184,IE,700100680,,1903,ACTIVE,,2H25
+700121354,Yarrowdale Healthcare (UK) Limited,Yarrowdale Healthcare (UK) Limited,7871738,GB,700101825,,798,ACTIVE,,2H25
+700121438,Stonebridge Industrial Group Limited,Stonebridge Industrial Group Limited,3646733,GB,700100254,,710,ACTIVE,,2H25
+700121502,Redbourne Insurance Limited,Redbourne Insurance Limited,2262650,GB,700101648,,1295,ACTIVE,,2H25
+700121539,Stonebridge Logistics Group PLC,Stonebridge Logistics Group PLC,651344,IE,700103295,,1006,ACTIVE,,2H25
+700121550,Garrowby Logistics Limited,Garrowby Logistics Limited,160130,IE,700101296,,304,ACTIVE,,2H25
+700121611,Westmeath Services Group PLC,Westmeath Services Group PLC,200389,IE,700100680,,1864,ACTIVE,,2H25
+700121652,Elmswood Financial Group Ltd,Elmswood Financial Group Limited,5022693,GB,700100744,,,ACTIVE,700109927,2H25
+700121675,Stonebridge Logistics DAC,Stonebridge Logistics DAC,157027,IE,700100680,,,ACTIVE,700110529,2H25
+700121723,Northgate Services DAC,Northgate Services DAC,768888,IE,700101760,,,ACTIVE,700113567,2H25
+700121796,Carrowmore Services Group Ltd,Carrowmore Services Group Limited,4668633,GB,700102136,,,ACTIVE,700110380,2H25
+700121844,Marlstone Partners Unlimited Company,Marlstone Partners Unlimited Company,671113,IE,700103106,,,ACTIVE,700106845,2H25
+700121938,Yarrowdale Healthcare (UK) Ltd,Yarrowdale Healthcare (UK) Limited,7871738,GB,700101825,,,ACTIVE,700121354,2H25
+700121972,Garrowby Services Holdings Ltd,Garrowby Services Holdings Limited,1108442,GB,700103508,,,ACTIVE,700114638,2H25
+700122052,Quarryhill Energy Ireland Ltd,Quarryhill Energy Ireland Limited,788460,IE,700101296,,,ACTIVE,700120200,2H25
+700122123,Elmswood Retail Group Plc,Elmswood Retail Group PLC,214754,IE,700103711,,,ACTIVE,700114605,2H25
+700122134,Hollybrook Energy (UK) Ltd,Hollybrook Energy (UK) Limited,5421567,GB,700100593,,,ACTIVE,700107240,2H25
+700122215,Kilbrannan Advisory DAC,Kilbrannan Advisory DAC,709598,IE,700103614,,,ACTIVE,700111393,2H25
+700122264,Ulverston Healthcare (UK) Ltd,Ulverston Healthcare (UK) Limited,9235950,GB,700100744,,,ACTIVE,700114952,2H25
+700122352,Westmeath Healthcare DAC,Westmeath Healthcare DAC,121403,IE,700103711,,,ACTIVE,700117651,2H25
+700122434,Hollybrook Technology Group Ltd,Hollybrook Technology Group Limited,3867359,GB,700100510,,,ACTIVE,700107982,2H25
+700122518,Harrowfield Insurance Holdings Ltd,Harrowfield Insurance Holdings Limited,3456022,GB,700100744,,,ACTIVE,700106616,2H25
+700122595,Yarrowdale Technology Group Plc,Yarrowdale Technology Group PLC,547094,IE,700103277,,,ACTIVE,700107849,2H25
+700122633,Elmswood Partners Unlimited Company,Elmswood Partners Unlimited Company,500775,IE,700102431,,,ACTIVE,700114328,2H25
+700122685,Eastvale Capital Ireland Ltd,Eastvale Capital Ireland Limited,519449,IE,700103614,,,ACTIVE,700113509,2H25
+700122752,Blackwater Healthcare Holdings Ltd,Blackwater Healthcare Holdings Limited,5490317,GB,700102391,,,ACTIVE,700117848,2H25
+700122802,Ballyvaughan Retail (UK) Ltd,Ballyvaughan Retail (UK) Limited,1757056,GB,700102582,,,ACTIVE,700111856,2H25
+700122884,Ardmore Energy Ireland Ltd,Ardmore Energy Ireland Limited,765713,IE,700103614,,,ACTIVE,700112982,2H25
+700122920,Elmswood Partners DAC,Elmswood Partners DAC,747140,IE,700103041,,,ACTIVE,700120540,2H25
+700123005,Cranbourne Retail Holdings Ltd,Cranbourne Retail Holdings Limited,3679095,GB,700103763,,,ACTIVE,700109743,2H25
+700123018,Lambourne Technology Ireland Ltd,Lambourne Technology Ireland Limited,516528,IE,700103041,,,ACTIVE,700104317,2H25
+700123031,Elmswood Capital Holdings Ltd,Elmswood Capital Holdings Limited,2852628,GB,700103137,,,ACTIVE,700112199,2H25
+700123078,Stonebridge Industrial Group Ltd,Stonebridge Industrial Group Limited,3646733,GB,700100254,,,ACTIVE,700121438,2H25
+700123172,Lambourne Retail Plc,Lambourne Retail PLC,7978629,GB,700101589,,,ACTIVE,700107734,2H25

@@ -1,343 +1,416 @@
 verification_id,org_id,checked_date,verdict,evidence_tier,finding
-1,700100076,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-2,700100167,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-3,700100179,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-4,700100201,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-5,700100278,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-6,700100363,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-7,700100380,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-8,700100402,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-9,700100463,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-10,700100487,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-11,700100581,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-12,700100607,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-13,700100644,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-14,700100701,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-15,700100719,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-16,700100755,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-17,700100845,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-18,700100909,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-19,700100955,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-20,700100968,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-21,700101028,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-22,700101074,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-23,700101138,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-24,700101224,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-25,700101290,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-26,700101364,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-27,700101378,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-28,700101394,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-29,700101407,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-30,700101480,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-31,700101508,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-32,700101520,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-33,700101562,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-34,700101657,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-35,700101690,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-36,700101714,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-37,700101732,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-38,700101808,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-39,700101863,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-40,700101913,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-41,700101947,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-42,700102032,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-43,700102083,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-44,700102121,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-45,700102179,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-46,700102244,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-47,700102279,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-48,700102307,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-49,700102397,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-50,700102467,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-51,700102481,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-52,700102555,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-53,700102643,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-54,700102738,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-55,700102766,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-56,700102789,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-57,700102867,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-58,700102905,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-59,700102934,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-60,700102986,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-61,700103061,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-62,700103093,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-63,700103105,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-64,700103185,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-65,700103216,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-66,700103286,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-67,700103363,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-68,700103374,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-69,700103405,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-70,700103473,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-71,700103535,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-72,700103550,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-73,700103582,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-74,700103618,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-75,700103660,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-76,700103677,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-77,700103774,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-78,700103788,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-79,700103866,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-80,700103929,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-81,700104005,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-82,700104057,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-83,700104126,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-84,700104168,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-85,700104224,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-86,700104290,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-87,700104345,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-88,700104422,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-89,700104437,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-90,700104490,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-91,700104581,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-92,700104597,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-93,700104631,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-94,700104646,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-95,700104706,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-96,700104791,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-97,700104823,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-98,700104851,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-99,700104892,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-100,700104918,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-101,700104936,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-102,700105007,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-103,700105030,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-104,700105108,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-105,700105147,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-106,700105234,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-107,700105269,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-108,700105343,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-109,700105426,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-110,700105498,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-111,700105565,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-112,700105646,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-113,700105742,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-114,700105838,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-115,700105912,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-116,700106000,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-117,700106097,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-118,700106112,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-119,700106157,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-120,700106174,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-121,700106249,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-122,700106296,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-123,700106317,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-124,700106346,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-125,700106382,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-126,700106424,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-127,700106493,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-128,700106527,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-129,700106570,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-130,700106637,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-131,700106712,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-132,700106739,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-133,700106750,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-134,700106766,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-135,700106802,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-136,700106828,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-137,700106925,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-138,700106966,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-139,700107057,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-140,700107130,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-141,700107211,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-142,700107237,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-143,700107299,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-144,700107320,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-145,700107370,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-146,700107455,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-147,700107521,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-148,700107595,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-149,700107675,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-150,700107758,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-151,700107809,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-152,700107893,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-153,700107982,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-154,700108077,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-155,700108136,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-156,700108195,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-157,700108235,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-158,700108272,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-159,700108291,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-160,700108306,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-161,700108390,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-162,700108454,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-163,700108484,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-164,700108581,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-165,700108627,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-166,700108669,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-167,700108764,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-168,700108798,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-169,700108839,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-170,700108875,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-171,700108966,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-172,700109026,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-173,700109102,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-174,700109138,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-175,700109203,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-176,700109252,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-177,700109348,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-178,700109378,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-179,700109392,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-180,700109488,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-181,700109546,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-182,700109630,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-183,700109714,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-184,700109793,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-185,700109820,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-186,700109916,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-187,700109946,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-188,700110026,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-189,700110095,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-190,700110156,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-191,700110247,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-192,700110304,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-193,700110396,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-194,700110487,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-195,700110552,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-196,700110576,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-197,700110620,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-198,700110699,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-199,700110745,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-200,700110764,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-201,700110858,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-202,700110881,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-203,700110894,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-204,700110954,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-205,700111025,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-206,700111042,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-207,700111103,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-208,700111149,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-209,700111166,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-210,700111216,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-211,700111229,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-212,700111315,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-213,700111338,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-214,700111430,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-215,700111471,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-216,700111545,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-217,700111631,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-218,700111648,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-219,700111680,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-220,700111769,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-221,700111851,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-222,700111938,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-223,700112026,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-224,700112054,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-225,700112139,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-226,700112178,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-227,700112214,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-228,700112261,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-229,700112344,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-230,700112358,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-231,700112388,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-232,700112421,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-233,700112442,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-234,700112503,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-235,700112599,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-236,700112671,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-237,700112721,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-238,700112794,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-239,700112829,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-240,700112880,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-241,700112894,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-242,700112985,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-243,700113008,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-244,700113022,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-245,700113094,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-246,700113182,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-247,700113226,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-248,700113242,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-249,700113303,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-250,700113370,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-251,700113466,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-252,700113515,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-253,700113587,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-254,700113607,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-255,700113661,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-256,700113708,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-257,700113801,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-258,700113817,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-259,700113835,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-260,700113905,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-261,700113976,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-262,700114033,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-263,700114098,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-264,700114193,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-265,700114221,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-266,700114279,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-267,700114299,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-268,700114325,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-269,700114420,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-270,700114464,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-271,700114480,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-272,700114509,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-273,700114550,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-274,700114631,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-275,700114722,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-276,700114791,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-277,700114861,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-278,700114903,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-279,700114971,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-280,700114998,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-281,700115046,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-282,700115134,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-283,700115204,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-284,700115287,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-285,700115320,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-286,700115378,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-287,700115416,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-288,700115446,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-289,700115534,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
-290,700115557,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-291,700115585,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-292,700115670,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-293,700115731,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-294,700115747,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-295,700115763,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-296,700115797,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-297,700115841,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-298,700115933,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-299,700115979,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-300,700116013,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-301,700116072,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-302,700116159,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
-303,700116234,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-304,700116307,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-305,700116365,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-306,700116377,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-307,700116451,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-308,700116519,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-309,700116586,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-310,700116649,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-311,700116733,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-312,700116797,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-313,700116827,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-314,700116909,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-315,700117003,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
-316,700117084,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-317,700117123,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-318,700117218,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-319,700117277,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-320,700117297,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
-321,700117335,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-322,700117430,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-323,700117479,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-324,700117503,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-325,700117528,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-326,700117588,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-327,700117651,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-328,700117705,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-329,700117754,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-330,700117801,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-331,700117821,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-332,700117907,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-333,700117996,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-334,700118037,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-335,700118074,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-336,700118155,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-337,700118227,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-338,700118238,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-339,700118300,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-340,700118340,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-341,700118384,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
-342,700118430,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+1,700100040,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+2,700100134,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+3,700100160,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+4,700100197,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+5,700100254,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+6,700100320,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+7,700100356,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+8,700100446,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+9,700100510,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+10,700100535,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+11,700100548,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+12,700100593,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+13,700100680,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+14,700100744,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+15,700100830,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+16,700100896,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+17,700100970,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+18,700100984,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+19,700101000,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+20,700101013,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+21,700101086,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+22,700101114,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+23,700101126,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+24,700101168,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+25,700101263,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+26,700101296,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+27,700101320,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+28,700101338,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+29,700101414,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+30,700101469,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+31,700101532,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+32,700101589,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+33,700101648,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+34,700101712,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+35,700101760,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+36,700101825,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+37,700101860,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+38,700101888,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+39,700101978,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+40,700102048,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+41,700102062,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+42,700102136,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+43,700102224,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+44,700102270,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+45,700102300,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+46,700102328,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+47,700102391,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+48,700102431,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+49,700102526,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+50,700102568,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+51,700102582,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+52,700102608,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+53,700102620,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+54,700102671,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+55,700102702,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+56,700102793,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+57,700102881,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+58,700102962,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+59,700102995,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+60,700103026,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+61,700103041,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+62,700103106,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+63,700103137,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+64,700103232,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+65,700103277,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+66,700103295,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+67,700103310,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+68,700103366,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+69,700103427,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+70,700103508,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+71,700103520,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+72,700103614,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+73,700103711,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+74,700103763,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+75,700103849,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+76,700103942,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+77,700103957,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+78,700104012,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+79,700104089,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+80,700104104,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+81,700104198,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+82,700104227,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+83,700104263,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+84,700104317,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+85,700104398,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+86,700104425,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+87,700104498,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+88,700104561,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+89,700104614,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+90,700104693,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+91,700104711,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+92,700104792,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+93,700104815,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+94,700104879,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+95,700104895,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+96,700104982,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+97,700105000,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+98,700105040,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+99,700105123,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+100,700105146,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+101,700105171,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+102,700105235,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+103,700105288,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+104,700105310,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+105,700105384,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+106,700105462,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+107,700105525,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+108,700105617,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+109,700105700,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+110,700105780,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+111,700105838,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+112,700105926,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+113,700106019,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+114,700106034,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+115,700106090,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+116,700106176,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+117,700106260,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+118,700106338,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+119,700106356,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+120,700106382,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+121,700106415,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+122,700106457,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+123,700106541,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+124,700106590,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+125,700106616,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+126,700106713,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+127,700106754,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+128,700106845,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+129,700106877,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+130,700106973,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+131,700107067,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+132,700107089,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+133,700107165,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+134,700107240,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+135,700107309,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+136,700107404,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+137,700107484,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+138,700107567,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+139,700107650,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+140,700107734,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+141,700107823,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+142,700107849,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+143,700107872,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+144,700107904,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+145,700107932,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+146,700107982,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+147,700107997,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+148,700108081,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+149,700108158,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+150,700108192,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+151,700108288,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+152,700108330,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+153,700108425,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+154,700108459,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+155,700108501,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+156,700108525,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+157,700108613,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+158,700108627,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+159,700108722,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+160,700108792,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+161,700108839,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+162,700108880,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+163,700108972,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+164,700108995,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+165,700109080,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+166,700109138,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+167,700109222,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+168,700109304,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+169,700109383,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+170,700109410,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+171,700109431,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+172,700109507,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+173,700109563,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+174,700109621,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+175,700109712,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+176,700109743,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+177,700109756,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+178,700109775,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+179,700109846,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+180,700109927,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+181,700110020,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+182,700110099,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+183,700110133,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+184,700110197,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+185,700110293,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+186,700110320,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+187,700110380,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+188,700110451,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+189,700110468,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+190,700110529,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+191,700110569,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+192,700110638,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+193,700110688,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+194,700110768,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+195,700110834,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+196,700110867,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+197,700110933,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+198,700111027,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+199,700111092,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+200,700111151,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+201,700111171,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+202,700111244,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+203,700111307,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+204,700111349,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+205,700111393,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+206,700111483,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+207,700111519,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+208,700111566,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+209,700111595,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+210,700111661,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+211,700111731,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+212,700111796,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+213,700111856,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+214,700111895,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+215,700111976,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+216,700112026,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+217,700112099,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+218,700112134,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+219,700112185,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+220,700112199,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+221,700112290,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+222,700112313,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+223,700112360,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+224,700112449,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+225,700112542,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+226,700112599,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+227,700112626,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+228,700112708,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+229,700112755,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+230,700112798,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+231,700112870,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+232,700112926,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+233,700112982,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+234,700113001,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+235,700113094,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+236,700113110,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+237,700113128,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+238,700113222,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+239,700113290,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+240,700113367,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+241,700113434,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+242,700113509,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+243,700113567,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+244,700113639,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+245,700113688,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+246,700113785,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+247,700113811,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+248,700113895,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+249,700113990,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+250,700114022,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+251,700114048,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+252,700114117,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+253,700114158,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+254,700114173,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+255,700114262,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+256,700114275,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+257,700114328,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+258,700114421,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+259,700114509,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+260,700114579,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+261,700114605,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+262,700114638,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+263,700114696,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+264,700114748,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+265,700114822,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+266,700114848,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+267,700114874,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+268,700114952,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+269,700114982,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+270,700115077,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+271,700115132,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+272,700115229,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+273,700115241,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+274,700115293,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+275,700115347,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+276,700115369,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+277,700115456,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+278,700115531,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+279,700115604,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+280,700115662,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+281,700115722,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+282,700115769,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+283,700115786,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+284,700115867,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+285,700115934,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+286,700115948,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+287,700115973,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+288,700116001,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+289,700116024,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+290,700116075,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+291,700116131,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+292,700116198,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+293,700116215,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+294,700116281,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+295,700116300,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+296,700116367,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+297,700116408,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+298,700116478,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+299,700116537,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+300,700116550,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+301,700116634,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+302,700116727,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+303,700116758,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+304,700116788,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+305,700116805,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+306,700116830,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+307,700116922,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+308,700116953,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+309,700117028,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+310,700117114,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+311,700117199,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+312,700117281,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+313,700117305,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+314,700117325,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+315,700117336,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+316,700117432,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+317,700117498,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+318,700117582,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+319,700117636,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+320,700117651,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+321,700117684,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+322,700117776,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+323,700117848,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+324,700117942,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+325,700118005,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+326,700118092,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+327,700118153,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+328,700118200,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+329,700118285,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+330,700118344,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+331,700118418,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+332,700118490,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+333,700118552,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+334,700118640,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+335,700118720,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+336,700118744,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+337,700118787,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+338,700118862,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+339,700118913,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+340,700118937,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+341,700119029,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+342,700119113,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+343,700119149,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+344,700119190,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+345,700119273,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+346,700119308,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+347,700119345,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+348,700119410,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+349,700119491,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+350,700119533,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+351,700119602,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+352,700119697,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+353,700119793,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+354,700119869,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+355,700119885,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+356,700119951,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+357,700119998,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+358,700120016,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+359,700120074,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+360,700120132,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+361,700120200,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+362,700120221,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+363,700120235,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+364,700120296,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+365,700120322,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+366,700120381,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+367,700120445,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+368,700120540,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+369,700120633,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+370,700120710,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+371,700120761,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+372,700120778,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+373,700120806,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+374,700120839,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+375,700120868,2026-08-10,RESOLVED,FACT,Recorded name did not match the filed legal name
+376,700120936,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+377,700120982,2026-08-10,EXCEPTION,FACT,Entity dissolved or in liquidation at the register
+378,700121079,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+379,700121174,2026-08-10,NOT_CHECKED,ESTIMATE,Outside current verification scope
+380,700121223,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+381,700121243,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+382,700121264,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+383,700121354,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+384,700121438,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+385,700121502,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+386,700121539,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+387,700121550,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+388,700121611,2026-08-10,CONFIRMED,FACT,"Active, correctly named and aligned per current filing"
+389,700121652,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+390,700121675,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+391,700121723,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+392,700121796,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+393,700121844,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+394,700121938,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+395,700121972,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+396,700122052,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+397,700122123,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+398,700122134,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+399,700122215,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+400,700122264,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+401,700122352,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+402,700122434,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+403,700122518,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+404,700122595,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+405,700122633,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+406,700122685,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+407,700122752,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+408,700122802,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+409,700122884,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+410,700122920,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+411,700123005,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+412,700123018,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+413,700123031,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+414,700123078,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
+415,700123172,2026-08-10,EXCEPTION,FACT,Duplicate of an existing record on the same registry number
