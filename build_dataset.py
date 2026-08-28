@@ -258,12 +258,12 @@ for i in range(N_CASES):
         action_seq += 1
 
 # ----------------------------------------------------------------------
-# 4. TAM ledger. Opening book set to 31,862.9K to match the shape of a
-#    real corporate book. Case-driven movement is assigned to the
-#    territories that were merged out; everything else is reforecast.
+# 4. TAM ledger. Opening book set to an invented control total. Case-driven
+#    movement is assigned to the territories that were merged out, and the
+#    remainder is scaled to a fixed reforecast figure so the cycle ties.
 # ----------------------------------------------------------------------
-OPENING_TOTAL = 31862.9
-MERGED_OUT_TOTAL = -141.7
+OPENING_TOTAL = 18450.0
+MERGED_OUT_TOTAL = -92.5
 
 weights = [random.random() ** 1.7 + 0.02 for _ in named_active]
 scale = OPENING_TOTAL / sum(weights)
@@ -295,6 +295,18 @@ for row in tam:
             row["tam_before_k"] * random.uniform(-0.35, 0.9), 1)
         if abs(row["delta_reforecast_k"]) > 0.05:
             row["action_summary"] = "REFORECAST"
+
+# scale the reforecast movement so the cycle nets to the control figure,
+# absorbing the rounding remainder in the largest contributing row
+REFORECAST_TOTAL = 2140.3
+current = sum(r["delta_reforecast_k"] for r in tam)
+if abs(current) > 0.01:
+    factor = REFORECAST_TOTAL / current
+    for row in tam:
+        row["delta_reforecast_k"] = round(row["delta_reforecast_k"] * factor, 1)
+drift = round(REFORECAST_TOTAL - sum(r["delta_reforecast_k"] for r in tam), 1)
+if abs(drift) > 0.001:
+    max(tam, key=lambda r: abs(r["delta_reforecast_k"]))["delta_reforecast_k"] += drift
 
 for row in tam:
     row["tam_after_k"] = round(
