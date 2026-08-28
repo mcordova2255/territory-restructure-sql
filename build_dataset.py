@@ -9,7 +9,7 @@ Every name, number and figure is invented. The structure and the failure
 modes are modelled on how enterprise coverage data actually breaks.
 
 Usage:  python build_dataset.py
-Output: data/*.csv and mdm.db
+Output: data/*.csv and coverage.db
 """
 
 import csv
@@ -22,7 +22,7 @@ random.seed(20260823)  # deterministic: same dataset every run
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
-DB = os.path.join(ROOT, "mdm.db")
+DB = os.path.join(ROOT, "coverage.db")
 os.makedirs(DATA, exist_ok=True)
 
 
@@ -73,14 +73,14 @@ def registry_no(country):
 # ----------------------------------------------------------------------
 N_NAMED_OPEN = 70
 N_RETIRED = 11
-VOLUME_ST_ID = 900001
+VOLUME_TERRITORY_ID = 900001
 
 territories = []
 for i in range(N_NAMED_OPEN):
     country = "IE" if i % 5 < 2 else "GB"
     territories.append({
-        "st_id": 230000 + i * 37,
-        "st_name": f"{make_name(country).rsplit(' ', 1)[0].upper()} - {country}",
+        "territory_id": 230000 + i * 37,
+        "territory_name": f"{make_name(country).rsplit(' ', 1)[0].upper()} - {country}",
         "country_code": country,
         "segment": "NAMED",
         "status": "ACTIVE",
@@ -88,14 +88,14 @@ for i in range(N_NAMED_OPEN):
         "retired_cycle": None,
     })
 territories.append({
-    "st_id": VOLUME_ST_ID, "st_name": "VOLUME SEGMENT GENERIC - UKI",
+    "territory_id": VOLUME_TERRITORY_ID, "territory_name": "VOLUME SEGMENT GENERIC - UKI",
     "country_code": "GB", "segment": "VOLUME", "status": "ACTIVE",
     "opened_cycle": "2H25", "retired_cycle": None,
 })
 
-retired_ids = [t["st_id"] for t in random.sample(territories[:N_NAMED_OPEN], N_RETIRED)]
+retired_ids = [t["territory_id"] for t in random.sample(territories[:N_NAMED_OPEN], N_RETIRED)]
 for t in territories:
-    if t["st_id"] in retired_ids:
+    if t["territory_id"] in retired_ids:
         t["status"] = "RETIRED"
         t["retired_cycle"] = "1H27"
 
@@ -134,9 +134,9 @@ for t in named_active:
         "employees": random.randint(250, 9000), "entity_status": "ACTIVE",
         "is_duplicate_of": None, "created_cycle": "2H25",
     })
-    parents_by_st[t["st_id"]] = org_id_seq
+    parents_by_st[t["territory_id"]] = org_id_seq
     assignments.append({"assignment_id": assign_seq, "org_id": org_id_seq,
-                        "st_id": t["st_id"], "valid_from": "2025-11-01", "valid_to": None})
+                        "territory_id": t["territory_id"], "valid_from": "2025-11-01", "valid_to": None})
     assign_seq += 1
 
 while len(orgs) < TOTAL_ORGS:
@@ -147,13 +147,13 @@ while len(orgs) < TOTAL_ORGS:
     orgs.append({
         "org_id": org_id_seq, "org_name": nm, "legal_name": nm,
         "registry_no": registry_no(country), "reg_country": country,
-        "parent_org_id": parents_by_st[t["st_id"]],
+        "parent_org_id": parents_by_st[t["territory_id"]],
         "ultimate_parent_hint": None,
         "employees": random.randint(5, 2500), "entity_status": "ACTIVE",
         "is_duplicate_of": None, "created_cycle": "2H25",
     })
     assignments.append({"assignment_id": assign_seq, "org_id": org_id_seq,
-                        "st_id": t["st_id"], "valid_from": "2025-11-01", "valid_to": None})
+                        "territory_id": t["territory_id"], "valid_from": "2025-11-01", "valid_to": None})
     assign_seq += 1
 
 children = [o for o in orgs if o["parent_org_id"] is not None]
@@ -179,9 +179,9 @@ for o in take(DEFECT_PLAN["DUPLICATE"]):
     dupe["is_duplicate_of"] = o["org_id"]
     dupe["employees"] = None
     orgs.append(dupe)
-    st = next(a["st_id"] for a in assignments if a["org_id"] == o["org_id"])
+    tid = next(a["territory_id"] for a in assignments if a["org_id"] == o["org_id"])
     assignments.append({"assignment_id": assign_seq, "org_id": dupe["org_id"],
-                        "st_id": st, "valid_from": "2025-11-01", "valid_to": None})
+                        "territory_id": tid, "valid_from": "2025-11-01", "valid_to": None})
     assign_seq += 1
 
 for o in take(DEFECT_PLAN["ORPHAN"]):
@@ -194,9 +194,9 @@ for o in take(DEFECT_PLAN["STALE_NAME"]):
         o["org_name"].split(" ")[1], random.choice(DIVISIONS))
 
 for o in take(DEFECT_PLAN["COUNTRY_MISMATCH"]):
-    st = next(a["st_id"] for a in assignments if a["org_id"] == o["org_id"])
-    st_country = next(t["country_code"] for t in territories if t["st_id"] == st)
-    o["reg_country"] = "GB" if st_country == "IE" else "IE"
+    tid = next(a["territory_id"] for a in assignments if a["org_id"] == o["org_id"])
+    territory_country = next(t["country_code"] for t in territories if t["territory_id"] == tid)
+    o["reg_country"] = "GB" if territory_country == "IE" else "IE"
 
 for o in take(DEFECT_PLAN["WRONG_PARENT"]):
     other = random.choice([p for p in parents_by_st.values() if p != o["parent_org_id"]])
@@ -217,9 +217,10 @@ STATUSES = [
 ]
 STATUS_WEIGHTS = [0.52, 0.14, 0.11, 0.08, 0.09, 0.03, 0.03]
 
-ORG_ACTIONS = ["MOVE_ORG", "MERGE_ORG", "DEACTIVATE_ORG", "CREATE_ORG", "RENAME_ORG"]
+ORG_ACTIONS = ["MOVE_ORGANIZATION", "MERGE_ORGANIZATION", "DEACTIVATE_ORGANIZATION",
+               "CREATE_ORGANIZATION", "RENAME_ORGANIZATION"]
 ORG_WEIGHTS = [0.24, 0.25, 0.17, 0.19, 0.15]
-ST_ACTIONS = ["RENAME_ST", "MERGE_ST", "CREATE_ST", "RECLASSIFY_ST"]
+ST_ACTIONS = ["RENAME_TERRITORY", "MERGE_TERRITORY", "CREATE_TERRITORY", "RECLASSIFY_TERRITORY"]
 ST_WEIGHTS = [0.44, 0.44, 0.06, 0.06]
 
 N_CASES = 141
@@ -228,7 +229,7 @@ action_seq = 1
 start = date(2026, 2, 2)
 
 for i in range(N_CASES):
-    level = "ORG" if i < 106 else "ST"
+    level = "ORGANIZATION" if i < 106 else "TERRITORY"
     status = random.choices([s[0] for s in STATUSES], STATUS_WEIGHTS)[0]
     raised = start + timedelta(days=random.randint(0, 180))
     approved = raised + timedelta(days=random.randint(2, 25)) \
@@ -244,15 +245,15 @@ for i in range(N_CASES):
         "target_cycle": "1H27",
     })
     for _ in range(random.choices([1, 2, 3], [0.66, 0.26, 0.08])[0]):
-        if level == "ORG":
+        if level == "ORGANIZATION":
             at = random.choices(ORG_ACTIONS, ORG_WEIGHTS)[0]
             actions.append({"action_id": action_seq, "case_ref": ref, "action_type": at,
-                            "org_id": random.choice(orgs)["org_id"], "st_id": None,
+                            "org_id": random.choice(orgs)["org_id"], "territory_id": None,
                             "tam_delta_k": 0.0})
         else:
             at = random.choices(ST_ACTIONS, ST_WEIGHTS)[0]
             actions.append({"action_id": action_seq, "case_ref": ref, "action_type": at,
-                            "org_id": None, "st_id": random.choice(named_active)["st_id"],
+                            "org_id": None, "territory_id": random.choice(named_active)["territory_id"],
                             "tam_delta_k": 0.0})
         action_seq += 1
 
@@ -268,7 +269,7 @@ weights = [random.random() ** 1.7 + 0.02 for _ in named_active]
 scale = OPENING_TOTAL / sum(weights)
 tam = []
 for t, w in zip(named_active, weights):
-    tam.append({"st_id": t["st_id"], "tam_before_k": round(w * scale, 1),
+    tam.append({"territory_id": t["territory_id"], "tam_before_k": round(w * scale, 1),
                 "tam_after_k": 0.0, "delta_from_cases_k": 0.0,
                 "delta_reforecast_k": 0.0, "action_summary": "KEEP"})
 
@@ -340,7 +341,7 @@ counts = {
     "sales_territories.csv": write("sales_territories.csv", territories),
     "organizations.csv": write("organizations.csv", orgs),
     "org_assignment.csv": write("org_assignment.csv", assignments),
-    "mdm_cases.csv": write("mdm_cases.csv", cases),
+    "master_data_cases.csv": write("master_data_cases.csv", cases),
     "case_actions.csv": write("case_actions.csv", actions),
     "tam_movement.csv": write("tam_movement.csv", tam),
     "verification_log.csv": write("verification_log.csv", verif),
@@ -352,7 +353,7 @@ con = sqlite3.connect(DB)
 con.executescript(open(find_schema()).read())
 
 TABLES = ["ref_case_status", "sales_territories", "organizations", "org_assignment",
-          "mdm_cases", "case_actions", "tam_movement", "verification_log"]
+          "master_data_cases", "case_actions", "tam_movement", "verification_log"]
 for tbl in TABLES:
     with open(os.path.join(DATA, tbl + ".csv"), encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
