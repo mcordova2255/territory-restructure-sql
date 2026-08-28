@@ -25,6 +25,16 @@ DATA = os.path.join(ROOT, "data")
 DB = os.path.join(ROOT, "mdm.db")
 os.makedirs(DATA, exist_ok=True)
 
+
+def find_schema():
+    """Schema may sit in sql/ or beside this script, depending on how the
+    repository was laid out. Look in both rather than assume."""
+    for candidate in (os.path.join(ROOT, "sql", "01_schema.sql"),
+                      os.path.join(ROOT, "01_schema.sql")):
+        if os.path.exists(candidate):
+            return candidate
+    raise FileNotFoundError("01_schema.sql not found in sql/ or repository root")
+
 # ----------------------------------------------------------------------
 # Invented naming. Deliberately generic so nothing resembles a real group.
 # ----------------------------------------------------------------------
@@ -339,7 +349,7 @@ counts = {
 if os.path.exists(DB):
     os.remove(DB)
 con = sqlite3.connect(DB)
-con.executescript(open(os.path.join(ROOT, "sql", "01_schema.sql")).read())
+con.executescript(open(find_schema()).read())
 
 TABLES = ["ref_case_status", "sales_territories", "organizations", "org_assignment",
           "mdm_cases", "case_actions", "tam_movement", "verification_log"]
