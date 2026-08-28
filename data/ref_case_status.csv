@@ -1,0 +1,8 @@
+status,stage_order,is_terminal,counts_as_raised
+Implemented,5,1,1
+Submitted,4,0,1
+BA Approved,3,0,1
+Pending BA Approval,2,0,1
+Open,1,0,1
+Withdrawn,6,1,0
+No Change,0,1,0
