@@ -326,7 +326,9 @@ if abs(current) > 0.01:
         row["delta_reforecast_k"] = round(row["delta_reforecast_k"] * factor, 1)
 rdrift = round(REFORECAST_TOTAL - sum(r["delta_reforecast_k"] for r in survivors), 1)
 if abs(rdrift) > 0.001:
-    max(survivors, key=lambda r: abs(r["delta_reforecast_k"]))["delta_reforecast_k"] += rdrift
+    tgt = max(survivors, key=lambda r: abs(r["delta_reforecast_k"]))
+    # round after the correction, or the residue survives into the CSV
+    tgt["delta_reforecast_k"] = round(tgt["delta_reforecast_k"] + rdrift, 1)
 
 for row in tam:
     row["tam_after_k"] = round(
@@ -357,6 +359,12 @@ for i, o in enumerate(orgs, start=1):
 # Write CSVs and load SQLite
 # ----------------------------------------------------------------------
 def write(name, rows):
+    # any float that reaches a CSV is rounded to one decimal; a value like
+    # 278.09999999999997 in a dataset about integrity is its own bug report
+    for r in rows:
+        for k, v in r.items():
+            if isinstance(v, float):
+                r[k] = round(v, 1)
     path = os.path.join(DATA, name)
     with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
