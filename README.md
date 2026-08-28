@@ -1,7 +1,7 @@
-Territory Restructure & Master Data Governance — SQL
+Territory Restructure & Master Data Governance - SQL
 Author: Maria Cordova<br>
 Tools: SQL (SQLite, PostgreSQL-compatible notes) · Python · pandas<br>
-Companion project: territory-coverage-capstone — the same domain in Python and pandas
+Companion project: territory-coverage-capstone - the same domain in Python and pandas
 All data in this repository is generated. It models the structure and the failure modes of an enterprise coverage dataset. No client or employer data is used anywhere in this project.
 ---
 The problem this models
