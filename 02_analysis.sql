@@ -6,7 +6,7 @@
 -- was lost. Query 10 is the one that matters. If it returns anything
 -- other than zero, the restructure is not defensible.
 --
--- SQLite dialect. Run: sqlite3 mdm.db < sql/02_analysis.sql
+-- SQLite dialect. Run: sqlite3 coverage.db < sql/02_analysis.sql
 -- =====================================================================
 
 
@@ -21,7 +21,7 @@ FROM sales_territories WHERE segment = 'NAMED' AND status = 'ACTIVE'
 UNION ALL
 SELECT 'Organizations tracked', COUNT(*) FROM organizations
 UNION ALL
-SELECT 'Cases raised', COUNT(*) FROM mdm_cases
+SELECT 'Cases raised', COUNT(*) FROM master_data_cases
 UNION ALL
 SELECT 'Actions carried by those cases', COUNT(*) FROM case_actions;
 
@@ -54,12 +54,12 @@ SELECT o.org_id,
        o.org_name,
        t.depth        AS levels_to_top,
        p.org_name     AS ultimate_parent,
-       st.st_name     AS assigned_territory
+       st.territory_name     AS assigned_territory
 FROM top_of_chain t
 JOIN organizations o  ON o.org_id = t.org_id
 JOIN organizations p  ON p.org_id = t.ancestor_id
 LEFT JOIN org_assignment a  ON a.org_id = o.org_id AND a.valid_to IS NULL
-LEFT JOIN sales_territories st ON st.st_id = a.st_id
+LEFT JOIN sales_territories st ON st.territory_id = a.territory_id
 WHERE t.rn = 1
 ORDER BY t.depth DESC, o.org_name
 LIMIT 20;
@@ -88,7 +88,7 @@ WITH defects AS (
     SELECT 'Registered country differs from territory country', COUNT(*)
     FROM organizations o
     JOIN org_assignment a  ON a.org_id = o.org_id AND a.valid_to IS NULL
-    JOIN sales_territories t ON t.st_id = a.st_id
+    JOIN sales_territories t ON t.territory_id = a.territory_id
     WHERE o.reg_country <> t.country_code
 )
 SELECT defect,
@@ -122,15 +122,15 @@ LIMIT 15;
 -- ---------------------------------------------------------------------
 SELECT o.org_id,
        o.org_name,
-       t_child.st_name  AS assigned_territory,
-       t_parent.st_name AS parent_territory
+       t_child.territory_name  AS assigned_territory,
+       t_parent.territory_name AS parent_territory
 FROM organizations o
 JOIN org_assignment a_child  ON a_child.org_id  = o.org_id        AND a_child.valid_to  IS NULL
-JOIN sales_territories t_child  ON t_child.st_id  = a_child.st_id
+JOIN sales_territories t_child  ON t_child.territory_id  = a_child.territory_id
 JOIN org_assignment a_parent ON a_parent.org_id = o.parent_org_id AND a_parent.valid_to IS NULL
-JOIN sales_territories t_parent ON t_parent.st_id = a_parent.st_id
+JOIN sales_territories t_parent ON t_parent.territory_id = a_parent.territory_id
 WHERE o.parent_org_id IS NOT NULL
-  AND t_child.st_id <> t_parent.st_id
+  AND t_child.territory_id <> t_parent.territory_id
 ORDER BY o.org_name
 LIMIT 20;
 
@@ -141,11 +141,11 @@ LIMIT 20;
 -- ---------------------------------------------------------------------
 SELECT s.status,
        COUNT(c.case_ref)                                                  AS cases,
-       ROUND(100.0 * COUNT(c.case_ref) / (SELECT COUNT(*) FROM mdm_cases), 1) AS pct,
+       ROUND(100.0 * COUNT(c.case_ref) / (SELECT COUNT(*) FROM master_data_cases), 1) AS pct,
        ROUND(AVG(JULIANDAY(COALESCE(c.implemented_date, DATE('now')))
                  - JULIANDAY(c.raised_date)), 1)                          AS avg_days_open
 FROM ref_case_status s
-LEFT JOIN mdm_cases c ON c.status = s.status
+LEFT JOIN master_data_cases c ON c.status = s.status
 GROUP BY s.status, s.stage_order
 ORDER BY s.stage_order DESC;
 
@@ -153,12 +153,12 @@ ORDER BY s.stage_order DESC;
 -- ---------------------------------------------------------------------
 -- 7. What was actually changed, split by level.
 -- ---------------------------------------------------------------------
-SELECT CASE WHEN action_type LIKE '%_ORG' THEN 'Organization' ELSE 'Territory' END AS level,
+SELECT CASE WHEN action_type LIKE '%_ORGANIZATION' THEN 'Organization' ELSE 'Territory' END AS level,
        action_type,
        COUNT(*) AS actions,
        SUM(CASE WHEN c.status = 'Implemented' THEN 1 ELSE 0 END) AS implemented
 FROM case_actions ca
-JOIN mdm_cases c ON c.case_ref = ca.case_ref
+JOIN master_data_cases c ON c.case_ref = ca.case_ref
 GROUP BY level, action_type
 ORDER BY level, actions DESC;
 
@@ -171,13 +171,13 @@ ORDER BY level, actions DESC;
 SELECT o.org_name,
        o.reg_country          AS registered_in,
        t.country_code         AS territory_country,
-       t.st_name              AS territory,
+       t.territory_name              AS territory,
        o.employees,
        ROUND(m.tam_before_k, 1) AS territory_tam_k
 FROM organizations o
 JOIN org_assignment a   ON a.org_id = o.org_id AND a.valid_to IS NULL
-JOIN sales_territories t ON t.st_id = a.st_id
-LEFT JOIN tam_movement m ON m.st_id = t.st_id
+JOIN sales_territories t ON t.territory_id = a.territory_id
+LEFT JOIN tam_movement m ON m.territory_id = t.territory_id
 WHERE o.reg_country <> t.country_code
   AND o.entity_status = 'ACTIVE'
 ORDER BY o.employees DESC;
@@ -223,7 +223,7 @@ FROM tam_movement;
 -- 11. Same reconciliation, per territory. Any row that fails is the row
 --     to investigate; the aggregate can tie while a row is wrong.
 -- ---------------------------------------------------------------------
-SELECT t.st_name,
+SELECT t.territory_name,
        m.tam_before_k,
        m.delta_from_cases_k,
        m.delta_reforecast_k,
@@ -231,7 +231,7 @@ SELECT t.st_name,
        ROUND(m.tam_before_k + m.delta_from_cases_k
              + m.delta_reforecast_k - m.tam_after_k, 2) AS variance_k
 FROM tam_movement m
-JOIN sales_territories t ON t.st_id = m.st_id
+JOIN sales_territories t ON t.territory_id = m.territory_id
 WHERE ABS(m.tam_before_k + m.delta_from_cases_k
           + m.delta_reforecast_k - m.tam_after_k) > 0.05
 ORDER BY ABS(m.tam_before_k + m.delta_from_cases_k
@@ -244,11 +244,11 @@ ORDER BY ABS(m.tam_before_k + m.delta_from_cases_k
 -- ---------------------------------------------------------------------
 SELECT 'Every assignment points at a real territory' AS check_name,
        CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END AS result, COUNT(*) AS offending_rows
-FROM org_assignment a LEFT JOIN sales_territories t ON t.st_id = a.st_id WHERE t.st_id IS NULL
+FROM org_assignment a LEFT JOIN sales_territories t ON t.territory_id = a.territory_id WHERE t.territory_id IS NULL
 UNION ALL
 SELECT 'Every action belongs to a real case',
        CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END, COUNT(*)
-FROM case_actions ca LEFT JOIN mdm_cases c ON c.case_ref = ca.case_ref WHERE c.case_ref IS NULL
+FROM case_actions ca LEFT JOIN master_data_cases c ON c.case_ref = ca.case_ref WHERE c.case_ref IS NULL
 UNION ALL
 SELECT 'No organization is its own parent',
        CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END, COUNT(*)
@@ -261,11 +261,11 @@ FROM (SELECT org_id FROM org_assignment WHERE valid_to IS NULL
 UNION ALL
 SELECT 'Implemented cases carry an implementation date',
        CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END, COUNT(*)
-FROM mdm_cases WHERE status = 'Implemented' AND implemented_date IS NULL
+FROM master_data_cases WHERE status = 'Implemented' AND implemented_date IS NULL
 UNION ALL
 SELECT 'No case is approved before it was raised',
        CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END, COUNT(*)
-FROM mdm_cases WHERE approved_date IS NOT NULL AND approved_date < raised_date
+FROM master_data_cases WHERE approved_date IS NOT NULL AND approved_date < raised_date
 UNION ALL
 SELECT 'Every organization has been verified',
        CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END, COUNT(*)
