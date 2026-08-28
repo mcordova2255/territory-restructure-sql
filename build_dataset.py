@@ -68,11 +68,11 @@ def registry_no(country):
 
 
 # ----------------------------------------------------------------------
-# 1. Territories. Opening book of 70 named plus one volume segment.
-#    11 named territories close during the cycle, leaving 59.
+# 1. Territories. Opening book of 88 named plus one volume segment.
+#    14 named territories close during the cycle, leaving 74.
 # ----------------------------------------------------------------------
-N_NAMED_OPEN = 70
-N_RETIRED = 11
+N_NAMED_OPEN = 88
+N_RETIRED = 14
 VOLUME_TERRITORY_ID = 900001
 
 territories = []
@@ -113,14 +113,15 @@ org_id_seq = 700100000
 assign_seq = 1
 
 DEFECT_PLAN = {
-    "DISSOLVED_STILL_ASSIGNED": 26,
-    "DUPLICATE": 22,
-    "ORPHAN": 14,
-    "STALE_NAME": 24,
-    "COUNTRY_MISMATCH": 9,
-    "WRONG_PARENT": 18,
+    "DISSOLVED_STILL_ASSIGNED": 32,   # 7.6% of 415
+    "DUPLICATE": 27,                  # 6.4% of 415
+    "ORPHAN": 17,                     # 4.1% of 415
+    "STALE_NAME": 32,                 # duplicates also produce a name mismatch;
+                                      # 32 seeded lands the observed rate at 11.4%
+    "COUNTRY_MISMATCH": 11,           # 2.6% of 415
+    "WRONG_PARENT": 22,               # 5.3% of 415
 }
-TOTAL_ORGS = 320
+TOTAL_ORGS = 388                      # 388 base + 27 duplicates = 415
 
 parents_by_st = {}
 for t in named_active:
@@ -203,8 +204,8 @@ for o in take(DEFECT_PLAN["WRONG_PARENT"]):
     o["parent_org_id"] = other   # parent no longer matches the assigned territory
 
 # ----------------------------------------------------------------------
-# 3. Cases. 141 cases carrying 202 actions, mirroring a real cycle where
-#    one approval often covers several changes.
+# 3. Cases. 96 cases carrying 138 actions, so that one approval can cover
+#    more than one change.
 # ----------------------------------------------------------------------
 STATUSES = [
     ("Implemented",         5, 1, 1),
@@ -223,14 +224,22 @@ ORG_WEIGHTS = [0.24, 0.25, 0.17, 0.19, 0.15]
 ST_ACTIONS = ["RENAME_TERRITORY", "MERGE_TERRITORY", "CREATE_TERRITORY", "RECLASSIFY_TERRITORY"]
 ST_WEIGHTS = [0.44, 0.44, 0.06, 0.06]
 
-N_CASES = 141
+N_CASES = 96
+STATUS_PLAN = (["Implemented"]*59 + ["Submitted"]*11 + ["BA Approved"]*9 +
+               ["Pending BA Approval"]*8 + ["Open"]*6 + ["Withdrawn"]*3)
+assert len(STATUS_PLAN) == N_CASES
+random.shuffle(STATUS_PLAN)
+# 138 actions across 96 cases: 54 single-action, 42 two-action
+ACTION_PLAN = [1]*54 + [2]*42
+assert sum(ACTION_PLAN) == 138
+random.shuffle(ACTION_PLAN)
 cases, actions = [], []
 action_seq = 1
 start = date(2026, 2, 2)
 
 for i in range(N_CASES):
     level = "ORGANIZATION" if i < 106 else "TERRITORY"
-    status = random.choices([s[0] for s in STATUSES], STATUS_WEIGHTS)[0]
+    status = STATUS_PLAN[i]
     raised = start + timedelta(days=random.randint(0, 180))
     approved = raised + timedelta(days=random.randint(2, 25)) \
         if status in ("BA Approved", "Submitted", "Implemented") else None
@@ -244,7 +253,7 @@ for i in range(N_CASES):
         "implemented_date": implemented.isoformat() if implemented else None,
         "target_cycle": "1H27",
     })
-    for _ in range(random.choices([1, 2, 3], [0.66, 0.26, 0.08])[0]):
+    for _ in range(ACTION_PLAN[i]):
         if level == "ORGANIZATION":
             at = random.choices(ORG_ACTIONS, ORG_WEIGHTS)[0]
             actions.append({"action_id": action_seq, "case_ref": ref, "action_type": at,
