@@ -30,7 +30,7 @@ Eight tables. The design decisions worth noting:
 | `organizations` | Self-referencing `parent_org_id` for the group hierarchy. `registry_no` is the statutory company number, which is the join key back to the public register, so two live records sharing one is always a defect. `legal_name` is held separately from `org_name` because the CRM name and the filed name drift apart. |
 | `org_assignment` | Validity dated. A territory move writes a new row and closes the old one rather than overwriting, so the history survives the restructure. |
 | `master_data_cases` / `case_actions` | Split one-to-many. A case is the unit of approval; an action is the unit of change. One approval routinely covers several changes, and collapsing them loses the distinction between what was asked for and what was done. |
-| `tam_movement` | Holds two separate delta columns. Case-driven movement is held separately from reforecast movement, so one contributor's effect can be isolated from background change. |
+| `tam_movement` | Covers every named territory that opened the cycle, so retired territories close to zero rather than dropping out. Two separate delta columns: case-driven movement is held apart from reforecast movement, so one contributor's effect can be isolated from background change. |
 | `verification_log` | Every organization checked against the current filing, with the verdict and an evidence tier recorded, so the position stays defensible after the cycle closes. |
 
 Evidence tiers follow a single rule: FACT taken verbatim from a statutory filing, DERIVED calculated from verified figures with the method stated, ESTIMATE where no statutory source exists. Anything unverifiable is logged as a gap rather than inferred.
@@ -46,19 +46,19 @@ Evidence tiers follow a single rule: FACT taken verbatim from a statutory filing
 | `org_assignment` | 415 | Validity-dated territory assignments |
 | `master_data_cases` | 96 | Cases across the full lifecycle |
 | `case_actions` | 138 | Actions carried by those cases |
-| `tam_movement` | 74 | Closing named book with the reconciliation ledger |
+| `tam_movement` | 88 | Every named territory that opened the cycle; the retired ones close to zero |
 | `verification_log` | 415 | One verification verdict per organization |
 
 Defects are seeded on purpose, at rates drawn from what a book that has not been re-tested actually looks like:
 
 | Defect | Records | Share of book |
 | ------ | ------- | ------------- |
-| Recorded name differs from filed legal name | 50 | 12.0% |
+| Recorded name differs from filed legal name | 52 | 12.5% |
 | Dissolved or in liquidation, still assigned | 32 | 7.7% |
 | Duplicate record | 27 | 6.5% |
+| Mis-parented, parent sits under a different territory | 22 | 5.3% |
 | Orphan, no open territory assignment | 17 | 4.1% |
 | Registered country differs from territory country | 11 | 2.7% |
-| Mis-parented, parent sits under a different territory | 22 | 5.3% |
 
 ---
 
@@ -93,12 +93,12 @@ Cases raised                      96
 Actions carried by those cases   138
 
 Case funnel
-  Implemented              59    61.5%
-  Submitted                11    11.5%
-  BA Approved               9     9.4%
-  Pending BA Approval       8     8.3%
-  Open                      6     6.3%
-  Withdrawn                 3     3.1%
+  Implemented              59     61.5%
+  Submitted                11     11.5%
+  BA Approved               9      9.4%
+  Pending BA Approval       8      8.3%
+  Open                      6      6.3%
+  Withdrawn                 3      3.1%
 
 Reconciliation
   Opening                   18,450.0K
