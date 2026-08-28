@@ -30,10 +30,10 @@ Eight tables. The design decisions worth noting:
 | `organizations` | Self-referencing `parent_org_id` for the group hierarchy. `registry_no` is the statutory company number, which is the join key back to the public register, so two live records sharing one is always a defect. `legal_name` is held separately from `org_name` because the CRM name and the filed name drift apart. |
 | `org_assignment` | Validity dated. A territory move writes a new row and closes the old one rather than overwriting, so the history survives the restructure. |
 | `master_data_cases` / `case_actions` | Split one-to-many. A case is the unit of approval; an action is the unit of change. One approval routinely covers several changes, and collapsing them loses the distinction between what was asked for and what was done. |
-| `tam_movement` | Holds two separate delta columns. Movement caused by my cases is kept apart from movement caused by the forecast refresh, so my work can be isolated and I am not claiming credit for the reforecast. |
+| `tam_movement` | Holds two separate delta columns. Case-driven movement is held separately from reforecast movement, so one contributor's effect can be isolated from background change. |
 | `verification_log` | Every organization checked against the current filing, with the verdict and an evidence tier recorded, so the position stays defensible after the cycle closes. |
 
-Evidence tiers follow the same rule used throughout my work: FACT taken verbatim from a statutory filing, DERIVED calculated from verified figures with the method stated, ESTIMATE where no statutory source exists. Anything unverifiable is logged as a gap rather than inferred.
+Evidence tiers follow a single rule: FACT taken verbatim from a statutory filing, DERIVED calculated from verified figures with the method stated, ESTIMATE where no statutory source exists. Anything unverifiable is logged as a gap rather than inferred.
 
 ---
 
@@ -41,24 +41,24 @@ Evidence tiers follow the same rule used throughout my work: FACT taken verbatim
 
 | Table | Rows | Contents |
 | ----- | ---- | -------- |
-| `sales_territories` | 71 | 70 named territories opening, 11 retired during the cycle, plus the volume segment |
-| `organizations` | 342 | Group parents and their subsidiaries, including deliberate defects |
-| `org_assignment` | 342 | Validity-dated territory assignments |
-| `master_data_cases` | 141 | Cases across the full lifecycle |
-| `case_actions` | 205 | Actions carried by those cases |
-| `tam_movement` | 59 | Closing named book with the reconciliation ledger |
-| `verification_log` | 342 | One verification verdict per organization |
+| `sales_territories` | 89 | 88 named territories opening, 14 retired during the cycle, plus the volume segment |
+| `organizations` | 415 | Group parents and their subsidiaries, including deliberate defects |
+| `org_assignment` | 415 | Validity-dated territory assignments |
+| `master_data_cases` | 96 | Cases across the full lifecycle |
+| `case_actions` | 138 | Actions carried by those cases |
+| `tam_movement` | 74 | Closing named book with the reconciliation ledger |
+| `verification_log` | 415 | One verification verdict per organization |
 
 Defects are seeded on purpose, at rates drawn from what a book that has not been re-tested actually looks like:
 
 | Defect | Records | Share of book |
 | ------ | ------- | ------------- |
-| Recorded name differs from filed legal name | 39 | 11.4% |
-| Dissolved or in liquidation, still assigned | 26 | 7.6% |
-| Duplicate record | 22 | 6.4% |
-| Orphan, no open territory assignment | 14 | 4.1% |
-| Registered country differs from territory country | 9 | 2.6% |
-| Mis-parented, parent sits under a different territory | 18 | 5.3% |
+| Recorded name differs from filed legal name | 50 | 12.0% |
+| Dissolved or in liquidation, still assigned | 32 | 7.7% |
+| Duplicate record | 27 | 6.5% |
+| Orphan, no open territory assignment | 17 | 4.1% |
+| Registered country differs from territory country | 11 | 2.7% |
+| Mis-parented, parent sits under a different territory | 22 | 5.3% |
 
 ---
 
@@ -86,19 +86,19 @@ Defects are seeded on purpose, at rates drawn from what a book that has not been
 ## Results
 
 ```
-Named territories, opening        70
-Named territories, closing        59
-Organizations tracked            342
-Cases raised                     141
-Actions carried by those cases   205
+Named territories, opening        88
+Named territories, closing        74
+Organizations tracked            415
+Cases raised                      96
+Actions carried by those cases   138
 
 Case funnel
-  Implemented              86    61.0%
-  Submitted                16    11.3%
-  BA Approved              13     9.2%
-  Pending BA Approval      12     8.5%
-  Open                      8     5.7%
-  Withdrawn / No Change     6     4.3%
+  Implemented              59    61.5%
+  Submitted                11    11.5%
+  BA Approved               9     9.4%
+  Pending BA Approval       8     8.3%
+  Open                      6     6.3%
+  Withdrawn                 3     3.1%
 
 Reconciliation
   Opening                   18,450.0K
