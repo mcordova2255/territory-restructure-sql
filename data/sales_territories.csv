@@ -1,4 +1,4 @@
-st_id,st_name,country_code,segment,status,opened_cycle,retired_cycle
+territory_id,territory_name,country_code,segment,status,opened_cycle,retired_cycle
 230000,VANTRY INDUSTRIAL - IE,IE,NAMED,ACTIVE,2H25,
 230037,CRANBOURNE FINANCIAL - IE,IE,NAMED,ACTIVE,2H25,
 230074,KILBRANNAN INSURANCE (UK) - GB,GB,NAMED,RETIRED,2H25,1H27

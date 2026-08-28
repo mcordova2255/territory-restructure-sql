@@ -1,4 +1,4 @@
-assignment_id,org_id,st_id,valid_from,valid_to
+assignment_id,org_id,territory_id,valid_from,valid_to
 1,700100076,230000,2025-11-01,
 2,700100167,230037,2025-11-01,
 3,700100179,230111,2025-11-01,
