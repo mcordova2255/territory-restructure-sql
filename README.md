@@ -64,7 +64,7 @@ Defects are seeded on purpose, at rates drawn from what a book that has not been
 
 ## The queries
 
-`sql/02_analysis.sql`, in the order the work is actually done.
+`02_analysis.sql`, in the order the work is actually done.
 
 | # | Query | What it demonstrates |
 | - | ----- | -------------------- |
@@ -117,9 +117,12 @@ Per-territory reconciliation returns zero rows, meaning no individual territory 
 ## Running it
 
 ```bash
-python build_dataset.py                 # writes data/*.csv and mdm.db
-sqlite3 mdm.db < sql/02_analysis.sql    # runs all twelve queries
+python build_dataset.py             # writes data/*.csv and mdm.db
+sqlite3 mdm.db < 02_analysis.sql    # runs all twelve queries
 ```
+
+`build_dataset.py` finds `01_schema.sql` whether it sits at the repository
+root or in a `sql/` folder, and regenerates the CSVs on every run.
 
 The generator is seeded, so the dataset is identical on every run and the figures above are reproducible.
 
