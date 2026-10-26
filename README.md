@@ -76,7 +76,7 @@ Defects are seeded on purpose, at rates drawn from what a book that has not been
 | 6 | Case funnel and ageing | `LEFT JOIN` from a reference table so empty stages still appear, date arithmetic |
 | 7 | Actions by level and type | Conditional aggregation |
 | 8 | Stranded coverage | Cross-country mismatch, sized so a recovery has a number attached |
-| 9 | Verification coverage by evidence tier | Distribution across the labelling scheme |
+| 9 | Verification coverage by evidence tier | Distribution across the labeling scheme |
 | 10 | The reconciliation | Opening + case movement + reforecast movement = closing, or it fails |
 | 11 | Reconciliation per territory | The aggregate can tie while a row is wrong; this finds the row |
 | 12 | Integrity checks | Eight PASS/FAIL assertions to run before publishing any figure |
